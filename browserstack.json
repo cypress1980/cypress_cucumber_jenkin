@@ -19,7 +19,16 @@
     "cypress_config_file": "./cypress.json",
     "project_name": "Cypress Cucumber",
     "build_name": "Cypress Cucumber Test",
-    "parallels": "2"
+    "parallels": "2",
+    "npm_dependencies": {
+      "cypress-cucumber-preprocessor": "4.3.1"
+    },
+    "headless": true,
+    "package_config_options": {
+      "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true
+      }
+    }
   },
   "connection_settings": {
     "local": false,
