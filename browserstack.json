@@ -1,0 +1,31 @@
+{
+  "auth": {
+    "username": "",
+    "access_key": ""
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["latest"]
+    },
+    {
+      "browser": "firefox",
+      "os": "OS X Mojave",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "./cypress.json",
+    "project_name": "Cypress Cucumber",
+    "build_name": "Cypress Cucumber Test",
+    "parallels": "2"
+  },
+  "connection_settings": {
+    "local": false,
+    "local_identifier": null,
+    "local_mode": null,
+    "local_config_file": null
+  },
+  "disable_usage_reporting": false
+}

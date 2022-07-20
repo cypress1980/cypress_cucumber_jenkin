@@ -1,0 +1,242 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I want to login into the site with valid and invalid data and search T-shirt",
+    "line": 1,
+    "id": "i-want-to-login-into-the-site-with-valid-and-invalid-data-and-search-t-shirt",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "i-want-to-login-into-the-site-with-valid-and-invalid-data-and-search-t-shirt;login-as-new-sign-up-user-with-valid-data",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login as new sign up user with valid data",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Website",
+            "result": {
+              "status": "undefined",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "validpassword"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "qatubeupdate@yopmail.com",
+                      "12345"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I entered valid crediential",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User click on sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Validate the title after login",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-want-to-login-into-the-site-with-valid-and-invalid-data-and-search-t-shirt;login-with-invalid-data-by-entering-invalid-password",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login with invalid data by entering invalid password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Website",
+            "result": {
+              "status": "undefined",
+              "duration": 83000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "invalidpassword"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "qatubeupdate@yopmail.com",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I entered invalid crediential",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User click on sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "errormessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Authentication failed"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Error message should display",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-want-to-login-into-the-site-with-valid-and-invalid-data-and-search-t-shirt;search-t-shirts-from-the-site",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Search T-shirts from the site",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Website",
+            "result": {
+              "status": "undefined",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serachtext"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "T-shirts"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I entered the search criteria",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Click on serach button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "tshirtName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Faded Short Sleeve T-shirts"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Validate the T-shirt name",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

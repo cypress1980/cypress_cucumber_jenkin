@@ -1,0 +1,2532 @@
+npm info it worked if it ends with ok
+npm verb cli [
+npm verb cli   '/usr/local/bin/node',
+npm verb cli   '/usr/local/bin/npm',
+npm verb cli   'install',
+npm verb cli   '--loglevel',
+npm verb cli   'verbose'
+npm verb cli ]
+npm info using npm@6.14.8
+npm info using node@v12.20.0
+npm verb npm-session f4d24fb65a07eadb
+npm info lifecycle @~preinstall: @
+npm timing stage:loadCurrentTree Completed in 8ms
+npm timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+npm timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+npm http fetch GET 200 https://registry.npmjs.org/cypress-cucumber-preprocessor 490ms
+npm http fetch GET 304 https://registry.npmjs.org/cosmiconfig 100ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/gherkin 171ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/chokidar 186ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/cucumber-tag-expressions 194ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/debug 219ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/chai 232ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/glob 130ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/dargs 238ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/cucumber 245ms (from cache)
+npm WARN deprecated cucumber@4.2.1: Cucumber is publishing new releases under @cucumber/cucumber
+npm http fetch GET 304 https://registry.npmjs.org/js-string-escape 84ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/minimist 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/through 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/js-yaml 66ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/parse-json 88ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-directory 117ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/anymatch 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/require-from-string 106ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/braces 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-binary-path 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/glob-parent 92ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-glob 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/fsevents 72ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/normalize-path 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/readdirp 89ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/assertion-error 92ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/ms 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@cypress%2fbrowserify-preprocessor 483ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/get-func-name 100ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/check-error 110ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/deep-eql 122ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/loupe 77ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/pathval 84ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/type-detect 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/inflight 72ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/minimatch 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/fs.realpath 121ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/once 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/inherits 111ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/assertion-error-formatter 106ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/path-is-absolute 108ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/bluebird 96ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/babel-runtime 111ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/cucumber-expressions 79ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/colors 91ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/commander 95ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/escape-string-regexp 86ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/figures 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/duration 107ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/indent-string 87ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-stream 75ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-generator 120ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/knuth-shuffle-seeded 90ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/resolve 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/lodash 94ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/progress 91ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/mz 92ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/serialize-error 91ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/stacktrace-js 98ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/title-case 76ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/string-argv 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/verror 91ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/argparse 92ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/esprima 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/util-arity 101ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/picomatch 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/json-parse-better-errors 84ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/error-ex 94ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/binary-extensions 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/fill-range 102ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-extglob 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/picomatch 107ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-object-rest-spread 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fcore 103ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-class-properties 120ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/cucumber-expressions 1089ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fpreset-env 99ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-runtime 104ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fpreset-react 115ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fruntime 110ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/babelify 73ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/babel-plugin-add-module-exports 75ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/browserify 76ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/coffeescript 80ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/fs-extra 72ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/through2 74ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/lodash.clonedeep 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/watchify 68ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/wrappy 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/diff 64ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/pad-right 63ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/brace-expansion 91ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/repeat-string 66ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/regenerator-runtime 72ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/core-js 81ms (from cache)
+npm WARN deprecated core-js@2.6.12: core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+npm http fetch GET 304 https://registry.npmjs.org/becke-ch--regex--s0-0-v1--base--pl--lib 75ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/d 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-core-module 66ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/es5-ext 84ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/seed-random 99ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/supports-preserve-symlinks-flag 87ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/path-parse 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/object-assign 69ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/any-promise 107ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/error-stack-parser 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/thenify-all 90ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/no-case 66ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/stacktrace-gps 76ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/stack-generator 93ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/upper-case 72ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/core-util-is 69ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/assert-plus 96ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/extsprintf 72ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/sprintf-js 61ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-arrayish 88ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/to-regex-range 92ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-compilation-targets 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/cli-table 1035ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-object-rest-spread 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-parameters 73ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fcompat-data 124ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-plugin-utils 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-module-transforms 86ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fgenerator 92ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fcode-frame 106ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@ampproject%2fremapping 119ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fparser 90ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2ftemplate 88ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2ftraverse 89ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelpers 118ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/convert-source-map 74ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/semver 64ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/gensync 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/json5 90ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2ftypes 108ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-create-class-features-plugin 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-validator-option 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-id-destructuring-collision-in-function-expression 90ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/stack-chain 1050ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-async-generator-functions 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-json-strings 77ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-class-static-block 94ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-dynamic-import 90ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-nullish-coalescing-operator 86ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-logical-assignment-operators 99ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-export-namespace-from 114ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-numeric-separator 105ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-optional-catch-binding 76ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-private-methods 94ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-optional-chaining 103ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-private-property-in-object 106ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-proposal-unicode-property-regex 89ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-class-properties 90ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-class-static-block 77ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-dynamic-import 76ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-async-generators 149ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-import-assertions 80ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-json-strings 79ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-logical-assignment-operators 81ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-export-namespace-from 102ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-nullish-coalescing-operator 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-optional-catch-binding 80ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/coffeeify 1003ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-numeric-separator 99ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-private-property-in-object 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-arrow-functions 100ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-optional-chaining 122ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-top-level-await 118ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-block-scoped-functions 105ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-async-to-generator 114ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-block-scoping 88ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-classes 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-computed-properties 94ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-destructuring 77ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-keys 76ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-exponentiation-operator 74ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-dotall-regex 84ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-literals 73ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-member-expression-literals 79ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-modules-amd 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-modules-commonjs 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-function-name 110ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-for-of 114ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-spread-parameters-in-optional-chaining 607ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-named-capturing-groups-regex 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-modules-systemjs 108ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-modules-umd 103ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-object-super 100ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-property-literals 87ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-regenerator 96ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-shorthand-properties 96ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-reserved-words 105ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-typeof-symbol 91ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-spread 102ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-sticky-regex 101ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-template-literals 103ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-unicode-regex 96ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-unicode-escapes 103ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/babel-plugin-polyfill-corejs3 80ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/babel-plugin-polyfill-corejs2 98ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/core-js-compat 61ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fpreset-modules 161ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/babel-plugin-polyfill-regenerator 92ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-react-jsx-development 72ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-react-jsx 91ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-react-display-name 102ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-module-imports 112ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-react-pure-annotations 100ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/JSONStream 87ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/assert 66ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/browser-pack 63ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/buffer 68ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/browserify-zlib 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/browser-resolve 86ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/crypto-browserify 67ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/concat-stream 79ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/console-browserify 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/constants-browserify 89ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/defined 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/domain-browser 68ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/deps-sort 75ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/duplexer2 77ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/events 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/has 93ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/htmlescape 100ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/insert-module-globals 92ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/https-browserify 129ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/labeled-stream-splicer 105ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-transform-new-target 565ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/mkdirp-classic 112ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/module-deps 109ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/os-browserify 95ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/parents 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/path-browserify 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/querystring-es3 59ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/process 91ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/shasum 60ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/shell-quote 67ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/punycode 101ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/stream-browserify 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/readable-stream 118ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/cached-path-relative 376ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/stream-http 93ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/syntax-error 70ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/string_decoder 88ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/subarg 88ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/timers-browserify 80ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/url 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/tty-browserify 95ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/util 72ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/vm-browserify 81ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/universalify 60ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/graceful-fs 88ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/xtend 111ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/at-least-node 103ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/xtend 72ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/jsonfile 108ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/xtend 75ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/balanced-match 77ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/outpipe 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/es6-symbol 62ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/next-tick 68ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/concat-map 98ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/type 115ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/thenify 88ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/es6-iterator 127ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/stackframe 121ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/lower-case 103ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/source-map 102ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-number 84ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/browserslist 87ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-environment-visitor 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-simple-access 75ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-split-export-declaration 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/jsesc 65ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 94ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@jridgewell%2fgen-mapping 108ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-hoist-variables 81ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-function-name 104ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@jridgewell%2ftrace-mapping 114ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/globals 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhighlight 146ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@jridgewell%2fgen-mapping 163ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/to-fast-properties 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/safe-buffer 99ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-annotate-as-pure 113ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-replace-supers 98ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-remap-async-to-generator 101ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-optimise-call-expression 110ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-member-expression-to-functions 123ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-builder-binary-assignment-operator-visitor 89ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-replace-supers 94ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-create-regexp-features-plugin 109ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/babel-plugin-dynamic-import-node 69ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-skip-transparent-expression-wrappers 163ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/regenerator-transform 70ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-create-regexp-features-plugin 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/jsonparse 67ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/esutils 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fplugin-syntax-jsx 84ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/combine-source-map 80ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/umd 77ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/ieee754 66ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/pako 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/browserify-sign 64ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/browserify-cipher 68ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/base64-js 107ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/create-ecdh 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/create-hash 80ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/create-hmac 88ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/pbkdf2 73ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/diffie-hellman 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/randombytes 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/randomfill 70ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/public-encrypt 100ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/shasum-object 80ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/typedarray 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/function-bind 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/buffer-from 109ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/acorn-node 73ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/undeclared-identifiers 65ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-buffer 87ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/stream-splicer 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/read-only-stream 981ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/detective 73ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/stream-combiner2 81ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/path-platform 79ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/json-stable-stringify 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/isarray 75ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/process-nextick-args 80ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/util-deprecate 76ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/sha.js 114ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/builtin-status-codes 90ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/escalade 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/node-releases 81ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/electron-to-chromium 93ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/ext 110ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/caniuse-lite 112ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/picocolors 129ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@jridgewell%2fset-array 122ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 114ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@jridgewell%2fresolve-uri 121ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/regexpu-core 61ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/chalk 95ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/js-tokens 95ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-wrap-function 103ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/lodash.memoize 59ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/object.assign 86ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/lodash.debounce 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/inline-source-map 104ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/bn.js 76ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/parse-asn1 69ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/elliptic 79ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/browserify-rsa 94ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/browserify-aes 75ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/browserify-des 74ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/evp_bytestokey 79ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/bn.js 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/querystring 399ms (from cache)
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm http fetch GET 304 https://registry.npmjs.org/md5.js 80ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/cipher-base 93ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/ripemd160 79ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/cipher-base 73ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/ripemd160 74ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/miller-rabin 77ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/fast-safe-stringify 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/acorn-walk 54ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/acorn 95ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/simple-concat 75ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/get-assigned-identifiers 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-arguments 77ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-typed-array 75ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/jsonify 59ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-generator-function 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/which-typed-array 97ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/regenerate-unicode-properties 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/regjsgen 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/regjsparser 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/regenerate 101ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/ansi-styles 74ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/unicode-match-property-ecmascript 95ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/unicode-match-property-value-ecmascript 84ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/supports-color 83ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/call-bind 74ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/define-properties 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/has-symbols 76ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/asn1.js 74ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/object-keys 92ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/brorand 85ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/hash.js 95ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/minimalistic-assert 73ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/hmac-drbg 92ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/buffer-xor 54ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/minimalistic-crypto-utils 72ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/available-typed-arrays 69ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/hash-base 81ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/dash-ast 353ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/es-abstract 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/unicode-canonical-property-names-ecmascript 66ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/unicode-property-aliases-ecmascript 65ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/has-tostringtag 80ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/for-each 89ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/get-intrinsic 60ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/color-convert 70ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/has-flag 75ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/safer-buffer 60ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/has-property-descriptors 69ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/function.prototype.name 65ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/es-to-primitive 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/get-intrinsic 67ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/get-symbol-description 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/internal-slot 78ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-regex 64ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-shared-array-buffer 60ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-negative-zero 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-string 64ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-callable 101ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-weakref 77ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/des.js 286ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/object-inspect 68ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/string.prototype.trimend 54ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/regexp.prototype.flags 69ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/unbox-primitive 61ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-callable 74ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/functions-have-names 69ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-date-object 59ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-symbol 61ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/side-channel 71ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/has-bigints 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/which-boxed-primitive 82ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/color-name 140ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-number-object 41ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-boolean-object 66ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-bigint 81ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/@babel%2fhelper-explode-assignable-expression 1027ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/string.prototype.trimstart 315ms (from cache)
+npm timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 6226ms
+npm timing stage:loadIdealTree Completed in 6331ms
+npm timing stage:generateActionsToTake Completed in 71ms
+npm verb correctMkdir /Users/kailashpathak/.npm/_locks correctMkdir not in flight; initializing
+npm verb lock using /Users/kailashpathak/.npm/_locks/staging-c5f9d255dfed3556.lock for /Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.staging
+npm timing audit submit Completed in 486ms
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 487ms
+npm timing audit body Completed in 4ms
+npm timing action:extract Completed in 3629ms
+npm timing action:finalize Completed in 790ms
+npm timing action:refresh-package-json Completed in 761ms
+npm info lifecycle @babel/compat-data@7.17.10~preinstall: @babel/compat-data@7.17.10
+npm info lifecycle @babel/helper-environment-visitor@7.18.2~preinstall: @babel/helper-environment-visitor@7.18.2
+npm info lifecycle @babel/helper-plugin-utils@7.17.12~preinstall: @babel/helper-plugin-utils@7.17.12
+npm info lifecycle @babel/helper-validator-identifier@7.16.7~preinstall: @babel/helper-validator-identifier@7.16.7
+npm info lifecycle @babel/helper-validator-option@7.16.7~preinstall: @babel/helper-validator-option@7.16.7
+npm info lifecycle @babel/parser@7.18.4~preinstall: @babel/parser@7.18.4
+npm info lifecycle @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.17.12~preinstall: @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.17.12
+npm info lifecycle @babel/plugin-syntax-async-generators@7.8.4~preinstall: @babel/plugin-syntax-async-generators@7.8.4
+npm info lifecycle @babel/plugin-syntax-class-properties@7.12.13~preinstall: @babel/plugin-syntax-class-properties@7.12.13
+npm info lifecycle @babel/plugin-syntax-class-static-block@7.14.5~preinstall: @babel/plugin-syntax-class-static-block@7.14.5
+npm info lifecycle @babel/plugin-syntax-dynamic-import@7.8.3~preinstall: @babel/plugin-syntax-dynamic-import@7.8.3
+npm info lifecycle @babel/plugin-proposal-dynamic-import@7.16.7~preinstall: @babel/plugin-proposal-dynamic-import@7.16.7
+npm info lifecycle @babel/plugin-syntax-export-namespace-from@7.8.3~preinstall: @babel/plugin-syntax-export-namespace-from@7.8.3
+npm info lifecycle @babel/plugin-proposal-export-namespace-from@7.17.12~preinstall: @babel/plugin-proposal-export-namespace-from@7.17.12
+npm info lifecycle @babel/plugin-syntax-import-assertions@7.17.12~preinstall: @babel/plugin-syntax-import-assertions@7.17.12
+npm info lifecycle @babel/plugin-syntax-json-strings@7.8.3~preinstall: @babel/plugin-syntax-json-strings@7.8.3
+npm info lifecycle @babel/plugin-proposal-json-strings@7.17.12~preinstall: @babel/plugin-proposal-json-strings@7.17.12
+npm info lifecycle @babel/plugin-syntax-jsx@7.17.12~preinstall: @babel/plugin-syntax-jsx@7.17.12
+npm info lifecycle @babel/plugin-syntax-logical-assignment-operators@7.10.4~preinstall: @babel/plugin-syntax-logical-assignment-operators@7.10.4
+npm info lifecycle @babel/plugin-proposal-logical-assignment-operators@7.17.12~preinstall: @babel/plugin-proposal-logical-assignment-operators@7.17.12
+npm info lifecycle @babel/plugin-syntax-nullish-coalescing-operator@7.8.3~preinstall: @babel/plugin-syntax-nullish-coalescing-operator@7.8.3
+npm info lifecycle @babel/plugin-proposal-nullish-coalescing-operator@7.17.12~preinstall: @babel/plugin-proposal-nullish-coalescing-operator@7.17.12
+npm info lifecycle @babel/plugin-syntax-numeric-separator@7.10.4~preinstall: @babel/plugin-syntax-numeric-separator@7.10.4
+npm info lifecycle @babel/plugin-proposal-numeric-separator@7.16.7~preinstall: @babel/plugin-proposal-numeric-separator@7.16.7
+npm info lifecycle @babel/plugin-syntax-object-rest-spread@7.8.3~preinstall: @babel/plugin-syntax-object-rest-spread@7.8.3
+npm info lifecycle @babel/plugin-syntax-optional-catch-binding@7.8.3~preinstall: @babel/plugin-syntax-optional-catch-binding@7.8.3
+npm info lifecycle @babel/plugin-proposal-optional-catch-binding@7.16.7~preinstall: @babel/plugin-proposal-optional-catch-binding@7.16.7
+npm info lifecycle @babel/plugin-syntax-optional-chaining@7.8.3~preinstall: @babel/plugin-syntax-optional-chaining@7.8.3
+npm info lifecycle @babel/plugin-syntax-private-property-in-object@7.14.5~preinstall: @babel/plugin-syntax-private-property-in-object@7.14.5
+npm info lifecycle @babel/plugin-syntax-top-level-await@7.14.5~preinstall: @babel/plugin-syntax-top-level-await@7.14.5
+npm info lifecycle @babel/plugin-transform-arrow-functions@7.17.12~preinstall: @babel/plugin-transform-arrow-functions@7.17.12
+npm info lifecycle @babel/plugin-transform-block-scoped-functions@7.16.7~preinstall: @babel/plugin-transform-block-scoped-functions@7.16.7
+npm info lifecycle @babel/plugin-transform-block-scoping@7.18.4~preinstall: @babel/plugin-transform-block-scoping@7.18.4
+npm info lifecycle @babel/plugin-transform-computed-properties@7.17.12~preinstall: @babel/plugin-transform-computed-properties@7.17.12
+npm info lifecycle @babel/plugin-transform-destructuring@7.18.0~preinstall: @babel/plugin-transform-destructuring@7.18.0
+npm info lifecycle @babel/plugin-transform-duplicate-keys@7.17.12~preinstall: @babel/plugin-transform-duplicate-keys@7.17.12
+npm info lifecycle @babel/plugin-transform-for-of@7.18.1~preinstall: @babel/plugin-transform-for-of@7.18.1
+npm info lifecycle @babel/plugin-transform-literals@7.17.12~preinstall: @babel/plugin-transform-literals@7.17.12
+npm info lifecycle @babel/plugin-transform-member-expression-literals@7.16.7~preinstall: @babel/plugin-transform-member-expression-literals@7.16.7
+npm info lifecycle @babel/plugin-transform-new-target@7.17.12~preinstall: @babel/plugin-transform-new-target@7.17.12
+npm info lifecycle @babel/plugin-transform-parameters@7.17.12~preinstall: @babel/plugin-transform-parameters@7.17.12
+npm info lifecycle @babel/plugin-transform-property-literals@7.16.7~preinstall: @babel/plugin-transform-property-literals@7.16.7
+npm info lifecycle @babel/plugin-transform-react-display-name@7.16.7~preinstall: @babel/plugin-transform-react-display-name@7.16.7
+npm info lifecycle @babel/plugin-transform-reserved-words@7.17.12~preinstall: @babel/plugin-transform-reserved-words@7.17.12
+npm info lifecycle @babel/plugin-transform-shorthand-properties@7.16.7~preinstall: @babel/plugin-transform-shorthand-properties@7.16.7
+npm info lifecycle @babel/plugin-transform-sticky-regex@7.16.7~preinstall: @babel/plugin-transform-sticky-regex@7.16.7
+npm info lifecycle @babel/plugin-transform-template-literals@7.18.2~preinstall: @babel/plugin-transform-template-literals@7.18.2
+npm info lifecycle @babel/plugin-transform-typeof-symbol@7.17.12~preinstall: @babel/plugin-transform-typeof-symbol@7.17.12
+npm info lifecycle @babel/plugin-transform-unicode-escapes@7.16.7~preinstall: @babel/plugin-transform-unicode-escapes@7.16.7
+npm info lifecycle @jridgewell/resolve-uri@3.0.7~preinstall: @jridgewell/resolve-uri@3.0.7
+npm info lifecycle cypress-cucumber-preprocessor@4.3.1~preinstall: cypress-cucumber-preprocessor@4.3.1
+npm info lifecycle @cypress/browserify-preprocessor@3.0.2~preinstall: @cypress/browserify-preprocessor@3.0.2
+npm info lifecycle watchify@4.0.0~preinstall: watchify@4.0.0
+npm info lifecycle browserify@17.0.0~preinstall: browserify@17.0.0
+npm info lifecycle through2@2.0.5~preinstall: through2@2.0.5
+npm info lifecycle browserify@16.5.2~preinstall: browserify@16.5.2
+npm info lifecycle insert-module-globals@7.2.1~preinstall: insert-module-globals@7.2.1
+npm info lifecycle undeclared-identifiers@1.1.3~preinstall: undeclared-identifiers@1.1.3
+npm info lifecycle module-deps@6.2.3~preinstall: module-deps@6.2.3
+npm info lifecycle deps-sort@2.0.1~preinstall: deps-sort@2.0.1
+npm info lifecycle coffeeify@3.0.1~preinstall: coffeeify@3.0.1
+npm info lifecycle browser-pack@6.1.0~preinstall: browser-pack@6.1.0
+npm info lifecycle through2@2.0.5~preinstall: through2@2.0.5
+npm info lifecycle stream-http@3.2.0~preinstall: stream-http@3.2.0
+npm info lifecycle syntax-error@1.4.0~preinstall: syntax-error@1.4.0
+npm info lifecycle detective@5.2.1~preinstall: detective@5.2.1
+npm info lifecycle acorn-node@1.8.2~preinstall: acorn-node@1.8.2
+npm info lifecycle xtend@4.0.2~preinstall: xtend@4.0.2
+npm info lifecycle cucumber@4.2.1~preinstall: cucumber@4.2.1
+npm info lifecycle glob@7.2.3~preinstall: glob@7.2.3
+npm info lifecycle inflight@1.0.6~preinstall: inflight@1.0.6
+npm info lifecycle once@1.4.0~preinstall: once@1.4.0
+npm info lifecycle wrappy@1.0.2~preinstall: wrappy@1.0.2
+npm info lifecycle util@0.12.4~preinstall: util@0.12.4
+npm info lifecycle which-typed-array@1.1.8~preinstall: which-typed-array@1.1.8
+npm info lifecycle string.prototype.trimstart@1.0.5~preinstall: string.prototype.trimstart@1.0.5
+npm info lifecycle string.prototype.trimend@1.0.5~preinstall: string.prototype.trimend@1.0.5
+npm info lifecycle is-typed-array@1.1.9~preinstall: is-typed-array@1.1.9
+npm info lifecycle function.prototype.name@1.1.5~preinstall: function.prototype.name@1.1.5
+npm info lifecycle es-abstract@1.20.1~preinstall: es-abstract@1.20.1
+npm info lifecycle unbox-primitive@1.0.2~preinstall: unbox-primitive@1.0.2
+npm info lifecycle which-boxed-primitive@1.0.2~preinstall: which-boxed-primitive@1.0.2
+npm info lifecycle through2@4.0.2~preinstall: through2@4.0.2
+npm info lifecycle readable-stream@3.6.0~preinstall: readable-stream@3.6.0
+npm info lifecycle stream-browserify@3.0.0~preinstall: stream-browserify@3.0.0
+npm info lifecycle readable-stream@3.6.0~preinstall: readable-stream@3.6.0
+npm info lifecycle path-browserify@1.0.1~preinstall: path-browserify@1.0.1
+npm info lifecycle events@3.3.0~preinstall: events@3.3.0
+npm info lifecycle vm-browserify@1.1.2~preinstall: vm-browserify@1.1.2
+npm info lifecycle verror@1.10.1~preinstall: verror@1.10.1
+npm info lifecycle core-util-is@1.0.2~preinstall: core-util-is@1.0.2
+npm info lifecycle util@0.10.4~preinstall: util@0.10.4
+npm info lifecycle inherits@2.0.3~preinstall: inherits@2.0.3
+npm info lifecycle readable-stream@3.6.0~preinstall: readable-stream@3.6.0
+npm info lifecycle labeled-stream-splicer@2.0.2~preinstall: labeled-stream-splicer@2.0.2
+npm info lifecycle stream-splicer@2.0.1~preinstall: stream-splicer@2.0.1
+npm info lifecycle stream-combiner2@1.1.1~preinstall: stream-combiner2@1.1.1
+npm info lifecycle stream-browserify@2.0.2~preinstall: stream-browserify@2.0.2
+npm info lifecycle read-only-stream@2.0.0~preinstall: read-only-stream@2.0.0
+npm info lifecycle duplexer2@0.1.4~preinstall: duplexer2@0.1.4
+npm info lifecycle concat-stream@1.6.2~preinstall: concat-stream@1.6.2
+npm info lifecycle readable-stream@2.3.7~preinstall: readable-stream@2.3.7
+npm info lifecycle crypto-browserify@3.12.0~preinstall: crypto-browserify@3.12.0
+npm info lifecycle public-encrypt@4.0.3~preinstall: public-encrypt@4.0.3
+npm info lifecycle browserify-sign@4.2.1~preinstall: browserify-sign@4.2.1
+npm info lifecycle parse-asn1@5.1.6~preinstall: parse-asn1@5.1.6
+npm info lifecycle pbkdf2@3.1.2~preinstall: pbkdf2@3.1.2
+npm info lifecycle create-hmac@1.1.7~preinstall: create-hmac@1.1.7
+npm info lifecycle browserify-cipher@1.0.1~preinstall: browserify-cipher@1.0.1
+npm info lifecycle browserify-aes@1.2.0~preinstall: browserify-aes@1.2.0
+npm info lifecycle create-hash@1.2.0~preinstall: create-hash@1.2.0
+npm info lifecycle ripemd160@2.0.2~preinstall: ripemd160@2.0.2
+npm info lifecycle evp_bytestokey@1.0.3~preinstall: evp_bytestokey@1.0.3
+npm info lifecycle md5.js@1.3.5~preinstall: md5.js@1.3.5
+npm info lifecycle hash-base@3.1.0~preinstall: hash-base@3.1.0
+npm info lifecycle readable-stream@3.6.0~preinstall: readable-stream@3.6.0
+npm info lifecycle readable-stream@3.6.0~preinstall: readable-stream@3.6.0
+npm info lifecycle util-deprecate@1.0.2~preinstall: util-deprecate@1.0.2
+npm info lifecycle util-arity@1.1.0~preinstall: util-arity@1.1.0
+npm info lifecycle url@0.11.0~preinstall: url@0.11.0
+npm info lifecycle punycode@1.3.2~preinstall: punycode@1.3.2
+npm info lifecycle title-case@2.1.1~preinstall: title-case@2.1.1
+npm info lifecycle upper-case@1.1.3~preinstall: upper-case@1.1.3
+npm info lifecycle fs-extra@9.1.0~preinstall: fs-extra@9.1.0
+npm info lifecycle jsonfile@6.1.0~preinstall: jsonfile@6.1.0
+npm info lifecycle universalify@2.0.0~preinstall: universalify@2.0.0
+npm info lifecycle @babel/preset-env@7.18.2~preinstall: @babel/preset-env@7.18.2
+npm info lifecycle @babel/plugin-transform-unicode-regex@7.16.7~preinstall: @babel/plugin-transform-unicode-regex@7.16.7
+npm info lifecycle @babel/plugin-transform-named-capturing-groups-regex@7.17.12~preinstall: @babel/plugin-transform-named-capturing-groups-regex@7.17.12
+npm info lifecycle @babel/preset-modules@0.1.5~preinstall: @babel/preset-modules@0.1.5
+npm info lifecycle @babel/plugin-transform-dotall-regex@7.16.7~preinstall: @babel/plugin-transform-dotall-regex@7.16.7
+npm info lifecycle @babel/plugin-proposal-unicode-property-regex@7.17.12~preinstall: @babel/plugin-proposal-unicode-property-regex@7.17.12
+npm info lifecycle @babel/helper-create-regexp-features-plugin@7.17.12~preinstall: @babel/helper-create-regexp-features-plugin@7.17.12
+npm info lifecycle regexpu-core@5.0.1~preinstall: regexpu-core@5.0.1
+npm info lifecycle unicode-match-property-ecmascript@2.0.0~preinstall: unicode-match-property-ecmascript@2.0.0
+npm info lifecycle unicode-property-aliases-ecmascript@2.0.0~preinstall: unicode-property-aliases-ecmascript@2.0.0
+npm info lifecycle unicode-match-property-value-ecmascript@2.0.0~preinstall: unicode-match-property-value-ecmascript@2.0.0
+npm info lifecycle unicode-canonical-property-names-ecmascript@2.0.0~preinstall: unicode-canonical-property-names-ecmascript@2.0.0
+npm info lifecycle umd@3.0.3~preinstall: umd@3.0.3
+npm info lifecycle typedarray@0.0.6~preinstall: typedarray@0.0.6
+npm info lifecycle chai@4.3.6~preinstall: chai@4.3.6
+npm info lifecycle deep-eql@3.0.1~preinstall: deep-eql@3.0.1
+npm info lifecycle type-detect@4.0.8~preinstall: type-detect@4.0.8
+npm info lifecycle duration@0.2.2~preinstall: duration@0.2.2
+npm info lifecycle es5-ext@0.10.61~preinstall: es5-ext@0.10.61
+npm info lifecycle es6-iterator@2.0.3~preinstall: es6-iterator@2.0.3
+npm info lifecycle es6-symbol@3.1.3~preinstall: es6-symbol@3.1.3
+npm info lifecycle d@1.0.1~preinstall: d@1.0.1
+npm info lifecycle type@1.2.0~preinstall: type@1.2.0
+npm info lifecycle tty-browserify@0.0.1~preinstall: tty-browserify@0.0.1
+npm info lifecycle chokidar@3.5.2~preinstall: chokidar@3.5.2
+npm info lifecycle braces@3.0.2~preinstall: braces@3.0.2
+npm info lifecycle fill-range@7.0.1~preinstall: fill-range@7.0.1
+npm info lifecycle to-regex-range@5.0.1~preinstall: to-regex-range@5.0.1
+npm info lifecycle @babel/core@7.18.2~preinstall: @babel/core@7.18.2
+npm info lifecycle @babel/helpers@7.18.2~preinstall: @babel/helpers@7.18.2
+npm info lifecycle @babel/plugin-transform-async-to-generator@7.17.12~preinstall: @babel/plugin-transform-async-to-generator@7.17.12
+npm info lifecycle @babel/plugin-proposal-async-generator-functions@7.17.12~preinstall: @babel/plugin-proposal-async-generator-functions@7.17.12
+npm info lifecycle @babel/helper-remap-async-to-generator@7.16.8~preinstall: @babel/helper-remap-async-to-generator@7.16.8
+npm info lifecycle @babel/helper-wrap-function@7.16.8~preinstall: @babel/helper-wrap-function@7.16.8
+npm info lifecycle @babel/plugin-transform-object-super@7.16.7~preinstall: @babel/plugin-transform-object-super@7.16.7
+npm info lifecycle @babel/plugin-transform-classes@7.18.4~preinstall: @babel/plugin-transform-classes@7.18.4
+npm info lifecycle @babel/plugin-proposal-private-property-in-object@7.17.12~preinstall: @babel/plugin-proposal-private-property-in-object@7.17.12
+npm info lifecycle @babel/plugin-proposal-private-methods@7.17.12~preinstall: @babel/plugin-proposal-private-methods@7.17.12
+npm info lifecycle @babel/plugin-proposal-class-static-block@7.18.0~preinstall: @babel/plugin-proposal-class-static-block@7.18.0
+npm info lifecycle @babel/plugin-proposal-class-properties@7.17.12~preinstall: @babel/plugin-proposal-class-properties@7.17.12
+npm info lifecycle @babel/helper-create-class-features-plugin@7.18.0~preinstall: @babel/helper-create-class-features-plugin@7.18.0
+npm info lifecycle @babel/helper-replace-supers@7.18.2~preinstall: @babel/helper-replace-supers@7.18.2
+npm info lifecycle @babel/plugin-transform-modules-umd@7.18.0~preinstall: @babel/plugin-transform-modules-umd@7.18.0
+npm info lifecycle @babel/plugin-transform-modules-systemjs@7.18.4~preinstall: @babel/plugin-transform-modules-systemjs@7.18.4
+npm info lifecycle @babel/plugin-transform-modules-commonjs@7.18.2~preinstall: @babel/plugin-transform-modules-commonjs@7.18.2
+npm info lifecycle @babel/plugin-transform-modules-amd@7.18.0~preinstall: @babel/plugin-transform-modules-amd@7.18.0
+npm info lifecycle @babel/helper-module-transforms@7.18.0~preinstall: @babel/helper-module-transforms@7.18.0
+npm info lifecycle @babel/plugin-transform-runtime@7.18.2~preinstall: @babel/plugin-transform-runtime@7.18.2
+npm info lifecycle babel-plugin-polyfill-regenerator@0.3.1~preinstall: babel-plugin-polyfill-regenerator@0.3.1
+npm info lifecycle babel-plugin-polyfill-corejs3@0.5.2~preinstall: babel-plugin-polyfill-corejs3@0.5.2
+npm info lifecycle babel-plugin-polyfill-corejs2@0.3.1~preinstall: babel-plugin-polyfill-corejs2@0.3.1
+npm info lifecycle @babel/helper-define-polyfill-provider@0.3.1~preinstall: @babel/helper-define-polyfill-provider@0.3.1
+npm info lifecycle @babel/traverse@7.18.2~preinstall: @babel/traverse@7.18.2
+npm info lifecycle @babel/plugin-transform-function-name@7.16.7~preinstall: @babel/plugin-transform-function-name@7.16.7
+npm info lifecycle @babel/helper-function-name@7.17.9~preinstall: @babel/helper-function-name@7.17.9
+npm info lifecycle @babel/template@7.16.7~preinstall: @babel/template@7.16.7
+npm info lifecycle @babel/preset-react@7.17.12~preinstall: @babel/preset-react@7.17.12
+npm info lifecycle @babel/plugin-transform-react-jsx-development@7.16.7~preinstall: @babel/plugin-transform-react-jsx-development@7.16.7
+npm info lifecycle @babel/plugin-transform-react-jsx@7.17.12~preinstall: @babel/plugin-transform-react-jsx@7.17.12
+npm info lifecycle @babel/helper-split-export-declaration@7.16.7~preinstall: @babel/helper-split-export-declaration@7.16.7
+npm info lifecycle @babel/plugin-transform-spread@7.17.12~preinstall: @babel/plugin-transform-spread@7.17.12
+npm info lifecycle @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.17.12~preinstall: @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.17.12
+npm info lifecycle @babel/plugin-proposal-optional-chaining@7.17.12~preinstall: @babel/plugin-proposal-optional-chaining@7.17.12
+npm info lifecycle @babel/helper-skip-transparent-expression-wrappers@7.16.0~preinstall: @babel/helper-skip-transparent-expression-wrappers@7.16.0
+npm info lifecycle @babel/helper-simple-access@7.18.2~preinstall: @babel/helper-simple-access@7.18.2
+npm info lifecycle @babel/helper-optimise-call-expression@7.16.7~preinstall: @babel/helper-optimise-call-expression@7.16.7
+npm info lifecycle @babel/helper-module-imports@7.16.7~preinstall: @babel/helper-module-imports@7.16.7
+npm info lifecycle @babel/helper-member-expression-to-functions@7.17.7~preinstall: @babel/helper-member-expression-to-functions@7.17.7
+npm info lifecycle @babel/helper-hoist-variables@7.16.7~preinstall: @babel/helper-hoist-variables@7.16.7
+npm info lifecycle @babel/plugin-transform-exponentiation-operator@7.16.7~preinstall: @babel/plugin-transform-exponentiation-operator@7.16.7
+npm info lifecycle @babel/helper-builder-binary-assignment-operator-visitor@7.16.7~preinstall: @babel/helper-builder-binary-assignment-operator-visitor@7.16.7
+npm info lifecycle @babel/helper-explode-assignable-expression@7.16.7~preinstall: @babel/helper-explode-assignable-expression@7.16.7
+npm info lifecycle @babel/plugin-transform-react-pure-annotations@7.18.0~preinstall: @babel/plugin-transform-react-pure-annotations@7.18.0
+npm info lifecycle @babel/helper-annotate-as-pure@7.16.7~preinstall: @babel/helper-annotate-as-pure@7.16.7
+npm info lifecycle @babel/generator@7.18.2~preinstall: @babel/generator@7.18.2
+npm info lifecycle @babel/types@7.18.4~preinstall: @babel/types@7.18.4
+npm info lifecycle to-fast-properties@2.0.0~preinstall: to-fast-properties@2.0.0
+npm info lifecycle timers-browserify@1.4.2~preinstall: timers-browserify@1.4.2
+npm info lifecycle JSONStream@1.3.5~preinstall: JSONStream@1.3.5
+npm info lifecycle through@2.3.8~preinstall: through@2.3.8
+npm info lifecycle mz@2.7.0~preinstall: mz@2.7.0
+npm info lifecycle thenify-all@1.6.0~preinstall: thenify-all@1.6.0
+npm info lifecycle thenify@3.3.1~preinstall: thenify@3.3.1
+npm info lifecycle browser-resolve@2.0.0~preinstall: browser-resolve@2.0.0
+npm info lifecycle resolve@1.22.0~preinstall: resolve@1.22.0
+npm info lifecycle supports-preserve-symlinks-flag@1.0.0~preinstall: supports-preserve-symlinks-flag@1.0.0
+npm info lifecycle @babel/code-frame@7.16.7~preinstall: @babel/code-frame@7.16.7
+npm info lifecycle @babel/highlight@7.17.12~preinstall: @babel/highlight@7.17.12
+npm info lifecycle chalk@2.4.2~preinstall: chalk@2.4.2
+npm info lifecycle supports-color@5.5.0~preinstall: supports-color@5.5.0
+npm info lifecycle subarg@1.0.0~preinstall: subarg@1.0.0
+npm info lifecycle string-argv@0.0.2~preinstall: string-argv@0.0.2
+npm info lifecycle string_decoder@1.3.0~preinstall: string_decoder@1.3.0
+npm info lifecycle safe-buffer@5.2.1~preinstall: safe-buffer@5.2.1
+npm info lifecycle stacktrace-js@2.0.2~preinstall: stacktrace-js@2.0.2
+npm info lifecycle stacktrace-gps@3.0.4~preinstall: stacktrace-gps@3.0.4
+npm info lifecycle source-map@0.5.6~preinstall: source-map@0.5.6
+npm info lifecycle stack-generator@2.0.5~preinstall: stack-generator@2.0.5
+npm info lifecycle error-stack-parser@2.0.7~preinstall: error-stack-parser@2.0.7
+npm info lifecycle stackframe@1.2.1~preinstall: stackframe@1.2.1
+npm info lifecycle stack-chain@2.0.0~preinstall: stack-chain@2.0.0
+npm info lifecycle cosmiconfig@4.0.0~preinstall: cosmiconfig@4.0.0
+npm info lifecycle js-yaml@3.14.1~preinstall: js-yaml@3.14.1
+npm info lifecycle argparse@1.0.10~preinstall: argparse@1.0.10
+npm info lifecycle sprintf-js@1.0.3~preinstall: sprintf-js@1.0.3
+npm info lifecycle combine-source-map@0.8.0~preinstall: combine-source-map@0.8.0
+npm info lifecycle inline-source-map@0.6.2~preinstall: inline-source-map@0.6.2
+npm info lifecycle source-map@0.5.7~preinstall: source-map@0.5.7
+npm info lifecycle simple-concat@1.0.1~preinstall: simple-concat@1.0.1
+npm info lifecycle internal-slot@1.0.3~preinstall: internal-slot@1.0.3
+npm info lifecycle side-channel@1.0.4~preinstall: side-channel@1.0.4
+npm info lifecycle outpipe@1.1.1~preinstall: outpipe@1.1.1
+npm info lifecycle shell-quote@1.7.3~preinstall: shell-quote@1.7.3
+npm info lifecycle shasum-object@1.0.0~preinstall: shasum-object@1.0.0
+npm info lifecycle shasum@1.0.2~preinstall: shasum@1.0.2
+npm info lifecycle sha.js@2.4.11~preinstall: sha.js@2.4.11
+npm info lifecycle serialize-error@2.1.0~preinstall: serialize-error@2.1.0
+npm info lifecycle @babel/plugin-proposal-object-rest-spread@7.18.0~preinstall: @babel/plugin-proposal-object-rest-spread@7.18.0
+npm info lifecycle @babel/helper-compilation-targets@7.18.2~preinstall: @babel/helper-compilation-targets@7.18.2
+npm info lifecycle semver@6.3.0~preinstall: semver@6.3.0
+npm info lifecycle knuth-shuffle-seeded@1.0.6~preinstall: knuth-shuffle-seeded@1.0.6
+npm info lifecycle seed-random@2.2.0~preinstall: seed-random@2.2.0
+npm info lifecycle asn1.js@5.4.1~preinstall: asn1.js@5.4.1
+npm info lifecycle safer-buffer@2.1.2~preinstall: safer-buffer@2.1.2
+npm info lifecycle string_decoder@1.1.1~preinstall: string_decoder@1.1.1
+npm info lifecycle randomfill@1.0.4~preinstall: randomfill@1.0.4
+npm info lifecycle diffie-hellman@5.0.3~preinstall: diffie-hellman@5.0.3
+npm info lifecycle browserify-rsa@4.1.0~preinstall: browserify-rsa@4.1.0
+npm info lifecycle randombytes@2.1.0~preinstall: randombytes@2.1.0
+npm info lifecycle convert-source-map@1.8.0~preinstall: convert-source-map@1.8.0
+npm info lifecycle browserify-des@1.0.2~preinstall: browserify-des@1.0.2
+npm info lifecycle cipher-base@1.0.4~preinstall: cipher-base@1.0.4
+npm info lifecycle safe-buffer@5.1.2~preinstall: safe-buffer@5.1.2
+npm info lifecycle require-from-string@2.0.2~preinstall: require-from-string@2.0.2
+npm info lifecycle assertion-error-formatter@2.0.1~preinstall: assertion-error-formatter@2.0.1
+npm info lifecycle pad-right@0.2.2~preinstall: pad-right@0.2.2
+npm info lifecycle repeat-string@1.6.1~preinstall: repeat-string@1.6.1
+npm info lifecycle regjsparser@0.8.4~preinstall: regjsparser@0.8.4
+npm info lifecycle jsesc@0.5.0~preinstall: jsesc@0.5.0
+npm info lifecycle regjsgen@0.6.0~preinstall: regjsgen@0.6.0
+npm info lifecycle regexp.prototype.flags@1.4.3~preinstall: regexp.prototype.flags@1.4.3
+npm info lifecycle @babel/plugin-transform-regenerator@7.18.0~preinstall: @babel/plugin-transform-regenerator@7.18.0
+npm info lifecycle regenerator-transform@0.15.0~preinstall: regenerator-transform@0.15.0
+npm info lifecycle @babel/runtime@7.18.3~preinstall: @babel/runtime@7.18.3
+npm info lifecycle regenerator-runtime@0.13.9~preinstall: regenerator-runtime@0.13.9
+npm info lifecycle regenerate-unicode-properties@10.0.1~preinstall: regenerate-unicode-properties@10.0.1
+npm info lifecycle regenerate@1.4.2~preinstall: regenerate@1.4.2
+npm info lifecycle readdirp@3.6.0~preinstall: readdirp@3.6.0
+npm info lifecycle querystring-es3@0.2.1~preinstall: querystring-es3@0.2.1
+npm info lifecycle querystring@0.2.0~preinstall: querystring@0.2.0
+npm info lifecycle punycode@1.4.1~preinstall: punycode@1.4.1
+npm info lifecycle bn.js@4.12.0~preinstall: bn.js@4.12.0
+npm info lifecycle progress@2.0.3~preinstall: progress@2.0.3
+npm info lifecycle process-nextick-args@2.0.1~preinstall: process-nextick-args@2.0.1
+npm info lifecycle process@0.11.10~preinstall: process@0.11.10
+npm info lifecycle anymatch@3.1.2~preinstall: anymatch@3.1.2
+npm info lifecycle picomatch@2.3.1~preinstall: picomatch@2.3.1
+npm info lifecycle core-js-compat@3.22.8~preinstall: core-js-compat@3.22.8
+npm info lifecycle browserslist@4.20.3~preinstall: browserslist@4.20.3
+npm info lifecycle picocolors@1.0.0~preinstall: picocolors@1.0.0
+npm info lifecycle pathval@1.1.1~preinstall: pathval@1.1.1
+npm info lifecycle parents@1.0.1~preinstall: parents@1.0.1
+npm info lifecycle path-platform@0.11.15~preinstall: path-platform@0.11.15
+npm info lifecycle path-parse@1.0.7~preinstall: path-parse@1.0.7
+npm info lifecycle path-is-absolute@1.0.1~preinstall: path-is-absolute@1.0.1
+npm info lifecycle path-browserify@0.0.1~preinstall: path-browserify@0.0.1
+npm info lifecycle parse-json@4.0.0~preinstall: parse-json@4.0.0
+npm info lifecycle browserify-zlib@0.2.0~preinstall: browserify-zlib@0.2.0
+npm info lifecycle pako@1.0.11~preinstall: pako@1.0.11
+npm info lifecycle os-browserify@0.3.0~preinstall: os-browserify@0.3.0
+npm info lifecycle babel-plugin-dynamic-import-node@2.3.3~preinstall: babel-plugin-dynamic-import-node@2.3.3
+npm info lifecycle object.assign@4.1.2~preinstall: object.assign@4.1.2
+npm info lifecycle define-properties@1.1.4~preinstall: define-properties@1.1.4
+npm info lifecycle object-keys@1.1.1~preinstall: object-keys@1.1.1
+npm info lifecycle object-inspect@1.12.2~preinstall: object-inspect@1.12.2
+npm info lifecycle assert@1.5.0~preinstall: assert@1.5.0
+npm info lifecycle object-assign@4.1.1~preinstall: object-assign@4.1.1
+npm info lifecycle normalize-path@3.0.0~preinstall: normalize-path@3.0.0
+npm info lifecycle node-releases@2.0.5~preinstall: node-releases@2.0.5
+npm info lifecycle no-case@2.3.2~preinstall: no-case@2.3.2
+npm info lifecycle next-tick@1.1.0~preinstall: next-tick@1.1.0
+npm info lifecycle debug@3.2.7~preinstall: debug@3.2.7
+npm info lifecycle debug@4.3.4~preinstall: debug@4.3.4
+npm info lifecycle debug@4.3.4~preinstall: debug@4.3.4
+npm info lifecycle debug@4.3.4~preinstall: debug@4.3.4
+npm info lifecycle debug@4.3.4~preinstall: debug@4.3.4
+npm info lifecycle ms@2.1.2~preinstall: ms@2.1.2
+npm info lifecycle mkdirp-classic@0.5.3~preinstall: mkdirp-classic@0.5.3
+npm info lifecycle minimist@1.2.6~preinstall: minimist@1.2.6
+npm info lifecycle minimatch@3.1.2~preinstall: minimatch@3.1.2
+npm info lifecycle create-ecdh@4.0.4~preinstall: create-ecdh@4.0.4
+npm info lifecycle elliptic@6.5.4~preinstall: elliptic@6.5.4
+npm info lifecycle hmac-drbg@1.0.1~preinstall: hmac-drbg@1.0.1
+npm info lifecycle minimalistic-crypto-utils@1.0.1~preinstall: minimalistic-crypto-utils@1.0.1
+npm info lifecycle hash.js@1.1.7~preinstall: hash.js@1.1.7
+npm info lifecycle des.js@1.0.1~preinstall: des.js@1.0.1
+npm info lifecycle minimalistic-assert@1.0.1~preinstall: minimalistic-assert@1.0.1
+npm info lifecycle miller-rabin@4.0.1~preinstall: miller-rabin@4.0.1
+npm info lifecycle bn.js@4.12.0~preinstall: bn.js@4.12.0
+npm info lifecycle lower-case@1.1.4~preinstall: lower-case@1.1.4
+npm info lifecycle loupe@2.3.4~preinstall: loupe@2.3.4
+npm info lifecycle lodash.memoize@3.0.4~preinstall: lodash.memoize@3.0.4
+npm info lifecycle lodash.debounce@4.0.8~preinstall: lodash.debounce@4.0.8
+npm info lifecycle lodash.clonedeep@4.5.0~preinstall: lodash.clonedeep@4.5.0
+npm info lifecycle lodash@4.17.21~preinstall: lodash@4.17.21
+npm info lifecycle jsonparse@1.3.1~preinstall: jsonparse@1.3.1
+npm info lifecycle json-stable-stringify@0.0.1~preinstall: json-stable-stringify@0.0.1
+npm info lifecycle jsonify@0.0.0~preinstall: jsonify@0.0.0
+npm info lifecycle json5@2.2.1~preinstall: json5@2.2.1
+npm info lifecycle json-parse-better-errors@1.0.2~preinstall: json-parse-better-errors@1.0.2
+npm info lifecycle jsesc@2.5.2~preinstall: jsesc@2.5.2
+npm info lifecycle js-tokens@4.0.0~preinstall: js-tokens@4.0.0
+npm info lifecycle js-string-escape@1.0.1~preinstall: js-string-escape@1.0.1
+npm info lifecycle isarray@1.0.0~preinstall: isarray@1.0.0
+npm info lifecycle is-weakref@1.0.2~preinstall: is-weakref@1.0.2
+npm info lifecycle es-to-primitive@1.2.1~preinstall: es-to-primitive@1.2.1
+npm info lifecycle is-symbol@1.0.4~preinstall: is-symbol@1.0.4
+npm info lifecycle is-string@1.0.7~preinstall: is-string@1.0.7
+npm info lifecycle is-stream@1.1.0~preinstall: is-stream@1.1.0
+npm info lifecycle is-shared-array-buffer@1.0.2~preinstall: is-shared-array-buffer@1.0.2
+npm info lifecycle is-regex@1.1.4~preinstall: is-regex@1.1.4
+npm info lifecycle is-number-object@1.0.7~preinstall: is-number-object@1.0.7
+npm info lifecycle is-number@7.0.0~preinstall: is-number@7.0.0
+npm info lifecycle is-negative-zero@2.0.2~preinstall: is-negative-zero@2.0.2
+npm info lifecycle glob-parent@5.1.2~preinstall: glob-parent@5.1.2
+npm info lifecycle is-glob@4.0.3~preinstall: is-glob@4.0.3
+npm info lifecycle is-generator-function@1.0.10~preinstall: is-generator-function@1.0.10
+npm info lifecycle is-generator@1.0.3~preinstall: is-generator@1.0.3
+npm info lifecycle is-extglob@2.1.1~preinstall: is-extglob@2.1.1
+npm info lifecycle is-directory@0.3.1~preinstall: is-directory@0.3.1
+npm info lifecycle is-date-object@1.0.5~preinstall: is-date-object@1.0.5
+npm info lifecycle is-core-module@2.9.0~preinstall: is-core-module@2.9.0
+npm info lifecycle for-each@0.3.3~preinstall: for-each@0.3.3
+npm info lifecycle is-callable@1.2.4~preinstall: is-callable@1.2.4
+npm info lifecycle is-buffer@1.1.6~preinstall: is-buffer@1.1.6
+npm info lifecycle is-boolean-object@1.1.2~preinstall: is-boolean-object@1.1.2
+npm info lifecycle is-binary-path@2.1.0~preinstall: is-binary-path@2.1.0
+npm info lifecycle is-bigint@1.0.4~preinstall: is-bigint@1.0.4
+npm info lifecycle error-ex@1.3.2~preinstall: error-ex@1.3.2
+npm info lifecycle is-arrayish@0.2.1~preinstall: is-arrayish@0.2.1
+npm info lifecycle is-arguments@1.1.1~preinstall: is-arguments@1.1.1
+npm info lifecycle inherits@2.0.4~preinstall: inherits@2.0.4
+npm info lifecycle indent-string@3.2.0~preinstall: indent-string@3.2.0
+npm info lifecycle buffer@5.2.1~preinstall: buffer@5.2.1
+npm info lifecycle ieee754@1.2.1~preinstall: ieee754@1.2.1
+npm info lifecycle https-browserify@1.0.0~preinstall: https-browserify@1.0.0
+npm info lifecycle htmlescape@1.1.1~preinstall: htmlescape@1.1.1
+npm info lifecycle safe-buffer@5.2.1~preinstall: safe-buffer@5.2.1
+npm info lifecycle has-tostringtag@1.0.0~preinstall: has-tostringtag@1.0.0
+npm info lifecycle has-property-descriptors@1.0.0~preinstall: has-property-descriptors@1.0.0
+npm info lifecycle get-symbol-description@1.0.0~preinstall: get-symbol-description@1.0.0
+npm info lifecycle call-bind@1.0.2~preinstall: call-bind@1.0.2
+npm info lifecycle get-intrinsic@1.1.1~preinstall: get-intrinsic@1.1.1
+npm info lifecycle has-symbols@1.0.3~preinstall: has-symbols@1.0.3
+npm info lifecycle has-flag@3.0.0~preinstall: has-flag@3.0.0
+npm info lifecycle has-bigints@1.0.2~preinstall: has-bigints@1.0.2
+npm info lifecycle has@1.0.3~preinstall: has@1.0.3
+npm info lifecycle graceful-fs@4.2.10~preinstall: graceful-fs@4.2.10
+npm info lifecycle globals@11.12.0~preinstall: globals@11.12.0
+npm info lifecycle gherkin@5.1.0~preinstall: gherkin@5.1.0
+npm info lifecycle get-func-name@2.0.0~preinstall: get-func-name@2.0.0
+npm info lifecycle get-assigned-identifiers@1.2.0~preinstall: get-assigned-identifiers@1.2.0
+npm info lifecycle gensync@1.0.0-beta.2~preinstall: gensync@1.0.0-beta.2
+npm info lifecycle functions-have-names@1.2.3~preinstall: functions-have-names@1.2.3
+npm info lifecycle function-bind@1.1.1~preinstall: function-bind@1.1.1
+npm info lifecycle fsevents@2.3.2~preinstall: fsevents@2.3.2
+npm info lifecycle fs.realpath@1.0.0~preinstall: fs.realpath@1.0.0
+npm info lifecycle figures@2.0.0~preinstall: figures@2.0.0
+npm info lifecycle fast-safe-stringify@2.1.1~preinstall: fast-safe-stringify@2.1.1
+npm info lifecycle extsprintf@1.4.1~preinstall: extsprintf@1.4.1
+npm info lifecycle ext@1.6.0~preinstall: ext@1.6.0
+npm info lifecycle type@2.6.0~preinstall: type@2.6.0
+npm info lifecycle events@2.1.0~preinstall: events@2.1.0
+npm info lifecycle esutils@2.0.3~preinstall: esutils@2.0.3
+npm info lifecycle esprima@4.0.1~preinstall: esprima@4.0.1
+npm info lifecycle escape-string-regexp@1.0.5~preinstall: escape-string-regexp@1.0.5
+npm info lifecycle escalade@3.1.1~preinstall: escalade@3.1.1
+npm info lifecycle bn.js@4.12.0~preinstall: bn.js@4.12.0
+npm info lifecycle electron-to-chromium@1.4.144~preinstall: electron-to-chromium@1.4.144
+npm info lifecycle domain-browser@1.2.0~preinstall: domain-browser@1.2.0
+npm info lifecycle bn.js@4.12.0~preinstall: bn.js@4.12.0
+npm info lifecycle diff@3.5.0~preinstall: diff@3.5.0
+npm info lifecycle defined@1.0.0~preinstall: defined@1.0.0
+npm info lifecycle dash-ast@1.0.0~preinstall: dash-ast@1.0.0
+npm info lifecycle dargs@7.0.0~preinstall: dargs@7.0.0
+npm info lifecycle cucumber-expressions@5.0.18~preinstall: cucumber-expressions@5.0.18
+npm info lifecycle cucumber-tag-expressions@1.1.1~preinstall: cucumber-tag-expressions@1.1.1
+npm info lifecycle cucumber-expressions@6.6.2~preinstall: cucumber-expressions@6.6.2
+npm info lifecycle bn.js@4.12.0~preinstall: bn.js@4.12.0
+npm info lifecycle core-util-is@1.0.3~preinstall: core-util-is@1.0.3
+npm info lifecycle semver@7.0.0~preinstall: semver@7.0.0
+npm info lifecycle babel-runtime@6.26.0~preinstall: babel-runtime@6.26.0
+npm info lifecycle core-js@2.6.12~preinstall: core-js@2.6.12
+npm info lifecycle constants-browserify@1.0.0~preinstall: constants-browserify@1.0.0
+npm info lifecycle console-browserify@1.2.0~preinstall: console-browserify@1.2.0
+npm info lifecycle brace-expansion@1.1.11~preinstall: brace-expansion@1.1.11
+npm info lifecycle concat-map@0.0.1~preinstall: concat-map@0.0.1
+npm info lifecycle commander@2.20.3~preinstall: commander@2.20.3
+npm info lifecycle convert-source-map@1.1.3~preinstall: convert-source-map@1.1.3
+npm info lifecycle colors@1.4.0~preinstall: colors@1.4.0
+npm info lifecycle ansi-styles@3.2.1~preinstall: ansi-styles@3.2.1
+npm info lifecycle color-convert@1.9.3~preinstall: color-convert@1.9.3
+npm info lifecycle color-name@1.1.3~preinstall: color-name@1.1.3
+npm info lifecycle coffeescript@1.12.7~preinstall: coffeescript@1.12.7
+npm info lifecycle cli-table@0.3.11~preinstall: cli-table@0.3.11
+npm info lifecycle colors@1.0.3~preinstall: colors@1.0.3
+npm info lifecycle check-error@1.0.2~preinstall: check-error@1.0.2
+npm info lifecycle caniuse-lite@1.0.30001346~preinstall: caniuse-lite@1.0.30001346
+npm info lifecycle cached-path-relative@1.1.0~preinstall: cached-path-relative@1.1.0
+npm info lifecycle builtin-status-codes@3.0.0~preinstall: builtin-status-codes@3.0.0
+npm info lifecycle buffer-xor@1.0.3~preinstall: buffer-xor@1.0.3
+npm info lifecycle buffer-from@1.1.2~preinstall: buffer-from@1.1.2
+npm info lifecycle safe-buffer@5.2.1~preinstall: safe-buffer@5.2.1
+npm info lifecycle brorand@1.1.0~preinstall: brorand@1.1.0
+npm info lifecycle bn.js@5.2.1~preinstall: bn.js@5.2.1
+npm info lifecycle bluebird@3.7.2~preinstall: bluebird@3.7.2
+npm info lifecycle binary-extensions@2.2.0~preinstall: binary-extensions@2.2.0
+npm info lifecycle becke-ch--regex--s0-0-v1--base--pl--lib@1.4.0~preinstall: becke-ch--regex--s0-0-v1--base--pl--lib@1.4.0
+npm info lifecycle base64-js@1.5.1~preinstall: base64-js@1.5.1
+npm info lifecycle balanced-match@1.0.2~preinstall: balanced-match@1.0.2
+npm info lifecycle babelify@10.0.0~preinstall: babelify@10.0.0
+npm info lifecycle regenerator-runtime@0.11.1~preinstall: regenerator-runtime@0.11.1
+npm info lifecycle babel-plugin-add-module-exports@1.0.4~preinstall: babel-plugin-add-module-exports@1.0.4
+npm info lifecycle available-typed-arrays@1.0.5~preinstall: available-typed-arrays@1.0.5
+npm info lifecycle at-least-node@1.0.0~preinstall: at-least-node@1.0.0
+npm info lifecycle assertion-error@1.1.0~preinstall: assertion-error@1.1.0
+npm info lifecycle util@0.10.3~preinstall: util@0.10.3
+npm info lifecycle inherits@2.0.1~preinstall: inherits@2.0.1
+npm info lifecycle assert-plus@1.0.0~preinstall: assert-plus@1.0.0
+npm info lifecycle bn.js@4.12.0~preinstall: bn.js@4.12.0
+npm info lifecycle any-promise@1.3.0~preinstall: any-promise@1.3.0
+npm info lifecycle acorn-walk@7.2.0~preinstall: acorn-walk@7.2.0
+npm info lifecycle acorn@7.4.1~preinstall: acorn@7.4.1
+npm info lifecycle @jridgewell/gen-mapping@0.3.1~preinstall: @jridgewell/gen-mapping@0.3.1
+npm info lifecycle @ampproject/remapping@2.2.0~preinstall: @ampproject/remapping@2.2.0
+npm info lifecycle @jridgewell/trace-mapping@0.3.13~preinstall: @jridgewell/trace-mapping@0.3.13
+npm info lifecycle @jridgewell/gen-mapping@0.1.1~preinstall: @jridgewell/gen-mapping@0.1.1
+npm info lifecycle @jridgewell/sourcemap-codec@1.4.13~preinstall: @jridgewell/sourcemap-codec@1.4.13
+npm info lifecycle @jridgewell/set-array@1.1.1~preinstall: @jridgewell/set-array@1.1.1
+npm timing action:preinstall Completed in 93ms
+npm info linkStuff @babel/compat-data@7.17.10
+npm info linkStuff @babel/helper-environment-visitor@7.18.2
+npm info linkStuff @babel/helper-plugin-utils@7.17.12
+npm info linkStuff @babel/helper-validator-identifier@7.16.7
+npm info linkStuff @babel/helper-validator-option@7.16.7
+npm info linkStuff @babel/parser@7.18.4
+npm verb linkBins [
+npm verb linkBins   { parser: 'bin/babel-parser.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.17.12
+npm info linkStuff @babel/plugin-syntax-async-generators@7.8.4
+npm info linkStuff @babel/plugin-syntax-class-properties@7.12.13
+npm info linkStuff @babel/plugin-syntax-class-static-block@7.14.5
+npm info linkStuff @babel/plugin-syntax-dynamic-import@7.8.3
+npm info linkStuff @babel/plugin-proposal-dynamic-import@7.16.7
+npm info linkStuff @babel/plugin-syntax-export-namespace-from@7.8.3
+npm info linkStuff @babel/plugin-proposal-export-namespace-from@7.17.12
+npm info linkStuff @babel/plugin-syntax-import-assertions@7.17.12
+npm info linkStuff @babel/plugin-syntax-json-strings@7.8.3
+npm info linkStuff @babel/plugin-proposal-json-strings@7.17.12
+npm info linkStuff @babel/plugin-syntax-jsx@7.17.12
+npm info linkStuff @babel/plugin-syntax-logical-assignment-operators@7.10.4
+npm info linkStuff @babel/plugin-proposal-logical-assignment-operators@7.17.12
+npm info linkStuff @babel/plugin-syntax-nullish-coalescing-operator@7.8.3
+npm info linkStuff @babel/plugin-proposal-nullish-coalescing-operator@7.17.12
+npm info linkStuff @babel/plugin-syntax-numeric-separator@7.10.4
+npm info linkStuff @babel/plugin-proposal-numeric-separator@7.16.7
+npm info linkStuff @babel/plugin-syntax-object-rest-spread@7.8.3
+npm info linkStuff @babel/plugin-syntax-optional-catch-binding@7.8.3
+npm info linkStuff @babel/plugin-proposal-optional-catch-binding@7.16.7
+npm info linkStuff @babel/plugin-syntax-optional-chaining@7.8.3
+npm info linkStuff @babel/plugin-syntax-private-property-in-object@7.14.5
+npm info linkStuff @babel/plugin-syntax-top-level-await@7.14.5
+npm info linkStuff @babel/plugin-transform-arrow-functions@7.17.12
+npm info linkStuff @babel/plugin-transform-block-scoped-functions@7.16.7
+npm info linkStuff @babel/plugin-transform-block-scoping@7.18.4
+npm info linkStuff @babel/plugin-transform-computed-properties@7.17.12
+npm info linkStuff @babel/plugin-transform-destructuring@7.18.0
+npm info linkStuff @babel/plugin-transform-duplicate-keys@7.17.12
+npm info linkStuff @babel/plugin-transform-for-of@7.18.1
+npm info linkStuff @babel/plugin-transform-literals@7.17.12
+npm info linkStuff @babel/plugin-transform-member-expression-literals@7.16.7
+npm info linkStuff @babel/plugin-transform-new-target@7.17.12
+npm info linkStuff @babel/plugin-transform-parameters@7.17.12
+npm info linkStuff @babel/plugin-transform-property-literals@7.16.7
+npm info linkStuff @babel/plugin-transform-react-display-name@7.16.7
+npm info linkStuff @babel/plugin-transform-reserved-words@7.17.12
+npm info linkStuff @babel/plugin-transform-shorthand-properties@7.16.7
+npm info linkStuff @babel/plugin-transform-sticky-regex@7.16.7
+npm info linkStuff @babel/plugin-transform-template-literals@7.18.2
+npm info linkStuff @babel/plugin-transform-typeof-symbol@7.17.12
+npm info linkStuff @babel/plugin-transform-unicode-escapes@7.16.7
+npm info linkStuff @jridgewell/resolve-uri@3.0.7
+npm info linkStuff @jridgewell/set-array@1.1.1
+npm info linkStuff @jridgewell/sourcemap-codec@1.4.13
+npm info linkStuff @jridgewell/gen-mapping@0.1.1
+npm info linkStuff @jridgewell/trace-mapping@0.3.13
+npm info linkStuff @ampproject/remapping@2.2.0
+npm info linkStuff @jridgewell/gen-mapping@0.3.1
+npm info linkStuff acorn@7.4.1
+npm verb linkBins [
+npm verb linkBins   { acorn: 'bin/acorn' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff acorn-walk@7.2.0
+npm info linkStuff any-promise@1.3.0
+npm info linkStuff bn.js@4.12.0
+npm info linkStuff assert-plus@1.0.0
+npm info linkStuff inherits@2.0.1
+npm info linkStuff util@0.10.3
+npm info linkStuff assertion-error@1.1.0
+npm info linkStuff at-least-node@1.0.0
+npm info linkStuff available-typed-arrays@1.0.5
+npm info linkStuff babel-plugin-add-module-exports@1.0.4
+npm info linkStuff regenerator-runtime@0.11.1
+npm info linkStuff babelify@10.0.0
+npm info linkStuff balanced-match@1.0.2
+npm info linkStuff base64-js@1.5.1
+npm info linkStuff becke-ch--regex--s0-0-v1--base--pl--lib@1.4.0
+npm info linkStuff binary-extensions@2.2.0
+npm info linkStuff bluebird@3.7.2
+npm info linkStuff bn.js@5.2.1
+npm info linkStuff brorand@1.1.0
+npm info linkStuff safe-buffer@5.2.1
+npm info linkStuff buffer-from@1.1.2
+npm info linkStuff buffer-xor@1.0.3
+npm info linkStuff builtin-status-codes@3.0.0
+npm info linkStuff cached-path-relative@1.1.0
+npm info linkStuff caniuse-lite@1.0.30001346
+npm info linkStuff check-error@1.0.2
+npm info linkStuff colors@1.0.3
+npm info linkStuff cli-table@0.3.11
+npm info linkStuff coffeescript@1.12.7
+npm verb linkBins [
+npm verb linkBins   { coffee: 'bin/coffee', cake: 'bin/cake' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff color-name@1.1.3
+npm info linkStuff color-convert@1.9.3
+npm info linkStuff ansi-styles@3.2.1
+npm info linkStuff colors@1.4.0
+npm info linkStuff convert-source-map@1.1.3
+npm info linkStuff commander@2.20.3
+npm info linkStuff concat-map@0.0.1
+npm info linkStuff brace-expansion@1.1.11
+npm info linkStuff console-browserify@1.2.0
+npm info linkStuff constants-browserify@1.0.0
+npm info linkStuff core-js@2.6.12
+npm info linkStuff babel-runtime@6.26.0
+npm info linkStuff semver@7.0.0
+npm verb linkBins [
+npm verb linkBins   { semver: 'bin/semver.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/core-js-compat/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff core-util-is@1.0.3
+npm info linkStuff bn.js@4.12.0
+npm info linkStuff cucumber-expressions@6.6.2
+npm info linkStuff cucumber-tag-expressions@1.1.1
+npm info linkStuff cucumber-expressions@5.0.18
+npm info linkStuff dargs@7.0.0
+npm info linkStuff dash-ast@1.0.0
+npm info linkStuff defined@1.0.0
+npm info linkStuff diff@3.5.0
+npm info linkStuff bn.js@4.12.0
+npm info linkStuff domain-browser@1.2.0
+npm info linkStuff electron-to-chromium@1.4.144
+npm info linkStuff bn.js@4.12.0
+npm info linkStuff escalade@3.1.1
+npm info linkStuff escape-string-regexp@1.0.5
+npm info linkStuff esprima@4.0.1
+npm verb linkBins [
+npm verb linkBins   { esparse: 'bin/esparse.js', esvalidate: 'bin/esvalidate.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff esutils@2.0.3
+npm info linkStuff events@2.1.0
+npm info linkStuff type@2.6.0
+npm info linkStuff ext@1.6.0
+npm info linkStuff extsprintf@1.4.1
+npm info linkStuff fast-safe-stringify@2.1.1
+npm info linkStuff figures@2.0.0
+npm info linkStuff fs.realpath@1.0.0
+npm info linkStuff fsevents@2.3.2
+npm info linkStuff function-bind@1.1.1
+npm info linkStuff functions-have-names@1.2.3
+npm info linkStuff gensync@1.0.0-beta.2
+npm info linkStuff get-assigned-identifiers@1.2.0
+npm info linkStuff get-func-name@2.0.0
+npm info linkStuff gherkin@5.1.0
+npm verb linkBins [
+npm verb linkBins   { 'gherkin-javascript': 'bin/gherkin' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff globals@11.12.0
+npm info linkStuff graceful-fs@4.2.10
+npm info linkStuff has@1.0.3
+npm info linkStuff has-bigints@1.0.2
+npm info linkStuff has-flag@3.0.0
+npm info linkStuff has-symbols@1.0.3
+npm info linkStuff get-intrinsic@1.1.1
+npm info linkStuff call-bind@1.0.2
+npm info linkStuff get-symbol-description@1.0.0
+npm info linkStuff has-property-descriptors@1.0.0
+npm info linkStuff has-tostringtag@1.0.0
+npm info linkStuff safe-buffer@5.2.1
+npm info linkStuff htmlescape@1.1.1
+npm info linkStuff https-browserify@1.0.0
+npm info linkStuff ieee754@1.2.1
+npm info linkStuff buffer@5.2.1
+npm info linkStuff indent-string@3.2.0
+npm info linkStuff inherits@2.0.4
+npm info linkStuff is-arguments@1.1.1
+npm info linkStuff is-arrayish@0.2.1
+npm info linkStuff error-ex@1.3.2
+npm info linkStuff is-bigint@1.0.4
+npm info linkStuff is-binary-path@2.1.0
+npm info linkStuff is-boolean-object@1.1.2
+npm info linkStuff is-buffer@1.1.6
+npm info linkStuff is-callable@1.2.4
+npm info linkStuff for-each@0.3.3
+npm info linkStuff is-core-module@2.9.0
+npm info linkStuff is-date-object@1.0.5
+npm info linkStuff is-directory@0.3.1
+npm info linkStuff is-extglob@2.1.1
+npm info linkStuff is-generator@1.0.3
+npm info linkStuff is-generator-function@1.0.10
+npm info linkStuff is-glob@4.0.3
+npm info linkStuff glob-parent@5.1.2
+npm info linkStuff is-negative-zero@2.0.2
+npm info linkStuff is-number@7.0.0
+npm info linkStuff is-number-object@1.0.7
+npm info linkStuff is-regex@1.1.4
+npm info linkStuff is-shared-array-buffer@1.0.2
+npm info linkStuff is-stream@1.1.0
+npm info linkStuff is-string@1.0.7
+npm info linkStuff is-symbol@1.0.4
+npm info linkStuff es-to-primitive@1.2.1
+npm info linkStuff is-weakref@1.0.2
+npm info linkStuff isarray@1.0.0
+npm info linkStuff js-string-escape@1.0.1
+npm info linkStuff js-tokens@4.0.0
+npm info linkStuff jsesc@2.5.2
+npm verb linkBins [
+npm verb linkBins   { jsesc: 'bin/jsesc' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff json-parse-better-errors@1.0.2
+npm info linkStuff json5@2.2.1
+npm verb linkBins [
+npm verb linkBins   { json5: 'lib/cli.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff jsonify@0.0.0
+npm info linkStuff json-stable-stringify@0.0.1
+npm info linkStuff jsonparse@1.3.1
+npm info linkStuff lodash@4.17.21
+npm info linkStuff lodash.clonedeep@4.5.0
+npm info linkStuff lodash.debounce@4.0.8
+npm info linkStuff lodash.memoize@3.0.4
+npm info linkStuff loupe@2.3.4
+npm info linkStuff lower-case@1.1.4
+npm info linkStuff bn.js@4.12.0
+npm info linkStuff miller-rabin@4.0.1
+npm verb linkBins [
+npm verb linkBins   { 'miller-rabin': 'bin/miller-rabin' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff minimalistic-assert@1.0.1
+npm info linkStuff des.js@1.0.1
+npm info linkStuff hash.js@1.1.7
+npm info linkStuff minimalistic-crypto-utils@1.0.1
+npm info linkStuff hmac-drbg@1.0.1
+npm info linkStuff elliptic@6.5.4
+npm info linkStuff create-ecdh@4.0.4
+npm info linkStuff minimatch@3.1.2
+npm info linkStuff minimist@1.2.6
+npm info linkStuff mkdirp-classic@0.5.3
+npm info linkStuff ms@2.1.2
+npm info linkStuff debug@4.3.4
+npm info linkStuff debug@4.3.4
+npm info linkStuff debug@4.3.4
+npm info linkStuff debug@4.3.4
+npm info linkStuff debug@3.2.7
+npm info linkStuff next-tick@1.1.0
+npm info linkStuff no-case@2.3.2
+npm info linkStuff node-releases@2.0.5
+npm info linkStuff normalize-path@3.0.0
+npm info linkStuff object-assign@4.1.1
+npm info linkStuff assert@1.5.0
+npm info linkStuff object-inspect@1.12.2
+npm info linkStuff object-keys@1.1.1
+npm info linkStuff define-properties@1.1.4
+npm info linkStuff object.assign@4.1.2
+npm info linkStuff babel-plugin-dynamic-import-node@2.3.3
+npm info linkStuff os-browserify@0.3.0
+npm info linkStuff pako@1.0.11
+npm info linkStuff browserify-zlib@0.2.0
+npm info linkStuff parse-json@4.0.0
+npm info linkStuff path-browserify@0.0.1
+npm info linkStuff path-is-absolute@1.0.1
+npm info linkStuff path-parse@1.0.7
+npm info linkStuff path-platform@0.11.15
+npm info linkStuff parents@1.0.1
+npm info linkStuff pathval@1.1.1
+npm info linkStuff picocolors@1.0.0
+npm info linkStuff browserslist@4.20.3
+npm verb linkBins [
+npm verb linkBins   { browserslist: 'cli.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff core-js-compat@3.22.8
+npm info linkStuff picomatch@2.3.1
+npm info linkStuff anymatch@3.1.2
+npm info linkStuff process@0.11.10
+npm info linkStuff process-nextick-args@2.0.1
+npm info linkStuff progress@2.0.3
+npm info linkStuff bn.js@4.12.0
+npm info linkStuff punycode@1.4.1
+npm info linkStuff querystring@0.2.0
+npm info linkStuff querystring-es3@0.2.1
+npm info linkStuff readdirp@3.6.0
+npm info linkStuff regenerate@1.4.2
+npm info linkStuff regenerate-unicode-properties@10.0.1
+npm info linkStuff regenerator-runtime@0.13.9
+npm info linkStuff @babel/runtime@7.18.3
+npm info linkStuff regenerator-transform@0.15.0
+npm info linkStuff @babel/plugin-transform-regenerator@7.18.0
+npm info linkStuff regexp.prototype.flags@1.4.3
+npm info linkStuff regjsgen@0.6.0
+npm info linkStuff jsesc@0.5.0
+npm verb linkBins [
+npm verb linkBins   { jsesc: 'bin/jsesc' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/regjsparser/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff regjsparser@0.8.4
+npm verb linkBins [
+npm verb linkBins   { regjsparser: 'bin/parser' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff repeat-string@1.6.1
+npm info linkStuff pad-right@0.2.2
+npm info linkStuff assertion-error-formatter@2.0.1
+npm info linkStuff require-from-string@2.0.2
+npm info linkStuff safe-buffer@5.1.2
+npm info linkStuff cipher-base@1.0.4
+npm info linkStuff browserify-des@1.0.2
+npm info linkStuff convert-source-map@1.8.0
+npm info linkStuff randombytes@2.1.0
+npm info linkStuff browserify-rsa@4.1.0
+npm info linkStuff diffie-hellman@5.0.3
+npm info linkStuff randomfill@1.0.4
+npm info linkStuff string_decoder@1.1.1
+npm info linkStuff safer-buffer@2.1.2
+npm info linkStuff asn1.js@5.4.1
+npm info linkStuff seed-random@2.2.0
+npm info linkStuff knuth-shuffle-seeded@1.0.6
+npm info linkStuff semver@6.3.0
+npm verb linkBins [
+npm verb linkBins   { semver: 'bin/semver.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff @babel/helper-compilation-targets@7.18.2
+npm info linkStuff @babel/plugin-proposal-object-rest-spread@7.18.0
+npm info linkStuff serialize-error@2.1.0
+npm info linkStuff sha.js@2.4.11
+npm verb linkBins [
+npm verb linkBins   { 'sha.js': 'bin.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff shasum@1.0.2
+npm info linkStuff shasum-object@1.0.0
+npm info linkStuff shell-quote@1.7.3
+npm info linkStuff outpipe@1.1.1
+npm info linkStuff side-channel@1.0.4
+npm info linkStuff internal-slot@1.0.3
+npm info linkStuff simple-concat@1.0.1
+npm info linkStuff source-map@0.5.7
+npm info linkStuff inline-source-map@0.6.2
+npm info linkStuff combine-source-map@0.8.0
+npm info linkStuff sprintf-js@1.0.3
+npm info linkStuff argparse@1.0.10
+npm info linkStuff js-yaml@3.14.1
+npm verb linkBins [
+npm verb linkBins   { 'js-yaml': 'bin/js-yaml.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff cosmiconfig@4.0.0
+npm info linkStuff stack-chain@2.0.0
+npm info linkStuff stackframe@1.2.1
+npm info linkStuff error-stack-parser@2.0.7
+npm info linkStuff stack-generator@2.0.5
+npm info linkStuff source-map@0.5.6
+npm info linkStuff stacktrace-gps@3.0.4
+npm info linkStuff stacktrace-js@2.0.2
+npm info linkStuff safe-buffer@5.2.1
+npm info linkStuff string_decoder@1.3.0
+npm info linkStuff string-argv@0.0.2
+npm info linkStuff subarg@1.0.0
+npm info linkStuff supports-color@5.5.0
+npm info linkStuff chalk@2.4.2
+npm info linkStuff @babel/highlight@7.17.12
+npm info linkStuff @babel/code-frame@7.16.7
+npm info linkStuff supports-preserve-symlinks-flag@1.0.0
+npm info linkStuff resolve@1.22.0
+npm verb linkBins [
+npm verb linkBins   { resolve: 'bin/resolve' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff browser-resolve@2.0.0
+npm info linkStuff thenify@3.3.1
+npm info linkStuff thenify-all@1.6.0
+npm info linkStuff mz@2.7.0
+npm info linkStuff through@2.3.8
+npm info linkStuff JSONStream@1.3.5
+npm verb linkBins [
+npm verb linkBins   { JSONStream: 'bin.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff timers-browserify@1.4.2
+npm info linkStuff to-fast-properties@2.0.0
+npm info linkStuff @babel/types@7.18.4
+npm info linkStuff @babel/generator@7.18.2
+npm info linkStuff @babel/helper-annotate-as-pure@7.16.7
+npm info linkStuff @babel/plugin-transform-react-pure-annotations@7.18.0
+npm info linkStuff @babel/helper-explode-assignable-expression@7.16.7
+npm info linkStuff @babel/helper-builder-binary-assignment-operator-visitor@7.16.7
+npm info linkStuff @babel/plugin-transform-exponentiation-operator@7.16.7
+npm info linkStuff @babel/helper-hoist-variables@7.16.7
+npm info linkStuff @babel/helper-member-expression-to-functions@7.17.7
+npm info linkStuff @babel/helper-module-imports@7.16.7
+npm info linkStuff @babel/helper-optimise-call-expression@7.16.7
+npm info linkStuff @babel/helper-simple-access@7.18.2
+npm info linkStuff @babel/helper-skip-transparent-expression-wrappers@7.16.0
+npm info linkStuff @babel/plugin-proposal-optional-chaining@7.17.12
+npm info linkStuff @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.17.12
+npm info linkStuff @babel/plugin-transform-spread@7.17.12
+npm info linkStuff @babel/helper-split-export-declaration@7.16.7
+npm info linkStuff @babel/plugin-transform-react-jsx@7.17.12
+npm info linkStuff @babel/plugin-transform-react-jsx-development@7.16.7
+npm info linkStuff @babel/preset-react@7.17.12
+npm info linkStuff @babel/template@7.16.7
+npm info linkStuff @babel/helper-function-name@7.17.9
+npm info linkStuff @babel/plugin-transform-function-name@7.16.7
+npm info linkStuff @babel/traverse@7.18.2
+npm info linkStuff @babel/helper-define-polyfill-provider@0.3.1
+npm info linkStuff babel-plugin-polyfill-corejs2@0.3.1
+npm info linkStuff babel-plugin-polyfill-corejs3@0.5.2
+npm info linkStuff babel-plugin-polyfill-regenerator@0.3.1
+npm info linkStuff @babel/plugin-transform-runtime@7.18.2
+npm info linkStuff @babel/helper-module-transforms@7.18.0
+npm info linkStuff @babel/plugin-transform-modules-amd@7.18.0
+npm info linkStuff @babel/plugin-transform-modules-commonjs@7.18.2
+npm info linkStuff @babel/plugin-transform-modules-systemjs@7.18.4
+npm info linkStuff @babel/plugin-transform-modules-umd@7.18.0
+npm info linkStuff @babel/helper-replace-supers@7.18.2
+npm info linkStuff @babel/helper-create-class-features-plugin@7.18.0
+npm info linkStuff @babel/plugin-proposal-class-properties@7.17.12
+npm info linkStuff @babel/plugin-proposal-class-static-block@7.18.0
+npm info linkStuff @babel/plugin-proposal-private-methods@7.17.12
+npm info linkStuff @babel/plugin-proposal-private-property-in-object@7.17.12
+npm info linkStuff @babel/plugin-transform-classes@7.18.4
+npm info linkStuff @babel/plugin-transform-object-super@7.16.7
+npm info linkStuff @babel/helper-wrap-function@7.16.8
+npm info linkStuff @babel/helper-remap-async-to-generator@7.16.8
+npm info linkStuff @babel/plugin-proposal-async-generator-functions@7.17.12
+npm info linkStuff @babel/plugin-transform-async-to-generator@7.17.12
+npm info linkStuff @babel/helpers@7.18.2
+npm info linkStuff @babel/core@7.18.2
+npm info linkStuff to-regex-range@5.0.1
+npm info linkStuff fill-range@7.0.1
+npm info linkStuff braces@3.0.2
+npm info linkStuff chokidar@3.5.2
+npm info linkStuff tty-browserify@0.0.1
+npm info linkStuff type@1.2.0
+npm info linkStuff d@1.0.1
+npm info linkStuff es6-symbol@3.1.3
+npm info linkStuff es6-iterator@2.0.3
+npm info linkStuff es5-ext@0.10.61
+npm info linkStuff duration@0.2.2
+npm info linkStuff type-detect@4.0.8
+npm info linkStuff deep-eql@3.0.1
+npm info linkStuff chai@4.3.6
+npm info linkStuff typedarray@0.0.6
+npm info linkStuff umd@3.0.3
+npm verb linkBins [
+npm verb linkBins   { umd: 'bin/cli.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff unicode-canonical-property-names-ecmascript@2.0.0
+npm info linkStuff unicode-match-property-value-ecmascript@2.0.0
+npm info linkStuff unicode-property-aliases-ecmascript@2.0.0
+npm info linkStuff unicode-match-property-ecmascript@2.0.0
+npm info linkStuff regexpu-core@5.0.1
+npm info linkStuff @babel/helper-create-regexp-features-plugin@7.17.12
+npm info linkStuff @babel/plugin-proposal-unicode-property-regex@7.17.12
+npm info linkStuff @babel/plugin-transform-dotall-regex@7.16.7
+npm info linkStuff @babel/preset-modules@0.1.5
+npm info linkStuff @babel/plugin-transform-named-capturing-groups-regex@7.17.12
+npm info linkStuff @babel/plugin-transform-unicode-regex@7.16.7
+npm info linkStuff @babel/preset-env@7.18.2
+npm info linkStuff universalify@2.0.0
+npm info linkStuff jsonfile@6.1.0
+npm info linkStuff fs-extra@9.1.0
+npm info linkStuff upper-case@1.1.3
+npm info linkStuff title-case@2.1.1
+npm info linkStuff punycode@1.3.2
+npm info linkStuff url@0.11.0
+npm info linkStuff util-arity@1.1.0
+npm info linkStuff util-deprecate@1.0.2
+npm info linkStuff readable-stream@3.6.0
+npm info linkStuff readable-stream@3.6.0
+npm info linkStuff hash-base@3.1.0
+npm info linkStuff md5.js@1.3.5
+npm info linkStuff evp_bytestokey@1.0.3
+npm info linkStuff ripemd160@2.0.2
+npm info linkStuff create-hash@1.2.0
+npm info linkStuff browserify-aes@1.2.0
+npm info linkStuff browserify-cipher@1.0.1
+npm info linkStuff create-hmac@1.1.7
+npm info linkStuff pbkdf2@3.1.2
+npm info linkStuff parse-asn1@5.1.6
+npm info linkStuff browserify-sign@4.2.1
+npm info linkStuff public-encrypt@4.0.3
+npm info linkStuff crypto-browserify@3.12.0
+npm info linkStuff readable-stream@2.3.7
+npm info linkStuff concat-stream@1.6.2
+npm info linkStuff duplexer2@0.1.4
+npm info linkStuff read-only-stream@2.0.0
+npm info linkStuff stream-browserify@2.0.2
+npm info linkStuff stream-combiner2@1.1.1
+npm info linkStuff stream-splicer@2.0.1
+npm info linkStuff labeled-stream-splicer@2.0.2
+npm info linkStuff readable-stream@3.6.0
+npm info linkStuff inherits@2.0.3
+npm info linkStuff util@0.10.4
+npm info linkStuff core-util-is@1.0.2
+npm info linkStuff verror@1.10.1
+npm info linkStuff vm-browserify@1.1.2
+npm info linkStuff events@3.3.0
+npm info linkStuff path-browserify@1.0.1
+npm info linkStuff readable-stream@3.6.0
+npm info linkStuff stream-browserify@3.0.0
+npm info linkStuff readable-stream@3.6.0
+npm info linkStuff through2@4.0.2
+npm info linkStuff which-boxed-primitive@1.0.2
+npm info linkStuff unbox-primitive@1.0.2
+npm info linkStuff es-abstract@1.20.1
+npm info linkStuff function.prototype.name@1.1.5
+npm info linkStuff is-typed-array@1.1.9
+npm info linkStuff string.prototype.trimend@1.0.5
+npm info linkStuff string.prototype.trimstart@1.0.5
+npm info linkStuff which-typed-array@1.1.8
+npm info linkStuff util@0.12.4
+npm info linkStuff wrappy@1.0.2
+npm info linkStuff once@1.4.0
+npm info linkStuff inflight@1.0.6
+npm info linkStuff glob@7.2.3
+npm info linkStuff cucumber@4.2.1
+npm verb linkBins [
+npm verb linkBins   { 'cucumber-js': 'bin/cucumber-js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff xtend@4.0.2
+npm info linkStuff acorn-node@1.8.2
+npm info linkStuff detective@5.2.1
+npm verb linkBins [
+npm verb linkBins   { detective: 'bin/detective.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff syntax-error@1.4.0
+npm info linkStuff stream-http@3.2.0
+npm info linkStuff through2@2.0.5
+npm info linkStuff browser-pack@6.1.0
+npm verb linkBins [
+npm verb linkBins   { 'browser-pack': 'bin/cmd.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff coffeeify@3.0.1
+npm info linkStuff deps-sort@2.0.1
+npm verb linkBins [
+npm verb linkBins   { 'deps-sort': 'bin/cmd.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff module-deps@6.2.3
+npm verb linkBins [
+npm verb linkBins   { 'module-deps': 'bin/cmd.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff undeclared-identifiers@1.1.3
+npm verb linkBins [
+npm verb linkBins   { 'undeclared-identifiers': 'bin.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff insert-module-globals@7.2.1
+npm verb linkBins [
+npm verb linkBins   { 'insert-module-globals': 'bin/cmd.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff browserify@16.5.2
+npm verb linkBins [
+npm verb linkBins   { browserify: 'bin/cmd.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff through2@2.0.5
+npm info linkStuff browserify@17.0.0
+npm verb linkBins [
+npm verb linkBins   { browserify: 'bin/cmd.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/watchify/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff watchify@4.0.0
+npm verb linkBins [
+npm verb linkBins   { watchify: 'bin/cmd.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff @cypress/browserify-preprocessor@3.0.2
+npm info linkStuff cypress-cucumber-preprocessor@4.3.1
+npm verb linkBins [
+npm verb linkBins   { 'cypress-tags': 'cypress-tags.js' },
+npm verb linkBins   '/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm timing action:build Completed in 161ms
+npm info lifecycle @babel/compat-data@7.17.10~install: @babel/compat-data@7.17.10
+npm info lifecycle @babel/helper-environment-visitor@7.18.2~install: @babel/helper-environment-visitor@7.18.2
+npm info lifecycle @babel/helper-plugin-utils@7.17.12~install: @babel/helper-plugin-utils@7.17.12
+npm info lifecycle @babel/helper-validator-identifier@7.16.7~install: @babel/helper-validator-identifier@7.16.7
+npm info lifecycle @babel/helper-validator-option@7.16.7~install: @babel/helper-validator-option@7.16.7
+npm info lifecycle @babel/parser@7.18.4~install: @babel/parser@7.18.4
+npm info lifecycle @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.17.12~install: @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.17.12
+npm info lifecycle @babel/plugin-syntax-async-generators@7.8.4~install: @babel/plugin-syntax-async-generators@7.8.4
+npm info lifecycle @babel/plugin-syntax-class-properties@7.12.13~install: @babel/plugin-syntax-class-properties@7.12.13
+npm info lifecycle @babel/plugin-syntax-class-static-block@7.14.5~install: @babel/plugin-syntax-class-static-block@7.14.5
+npm info lifecycle @babel/plugin-syntax-dynamic-import@7.8.3~install: @babel/plugin-syntax-dynamic-import@7.8.3
+npm info lifecycle @babel/plugin-proposal-dynamic-import@7.16.7~install: @babel/plugin-proposal-dynamic-import@7.16.7
+npm info lifecycle @babel/plugin-syntax-export-namespace-from@7.8.3~install: @babel/plugin-syntax-export-namespace-from@7.8.3
+npm info lifecycle @babel/plugin-proposal-export-namespace-from@7.17.12~install: @babel/plugin-proposal-export-namespace-from@7.17.12
+npm info lifecycle @babel/plugin-syntax-import-assertions@7.17.12~install: @babel/plugin-syntax-import-assertions@7.17.12
+npm info lifecycle @babel/plugin-syntax-json-strings@7.8.3~install: @babel/plugin-syntax-json-strings@7.8.3
+npm info lifecycle @babel/plugin-proposal-json-strings@7.17.12~install: @babel/plugin-proposal-json-strings@7.17.12
+npm info lifecycle @babel/plugin-syntax-jsx@7.17.12~install: @babel/plugin-syntax-jsx@7.17.12
+npm info lifecycle @babel/plugin-syntax-logical-assignment-operators@7.10.4~install: @babel/plugin-syntax-logical-assignment-operators@7.10.4
+npm info lifecycle @babel/plugin-proposal-logical-assignment-operators@7.17.12~install: @babel/plugin-proposal-logical-assignment-operators@7.17.12
+npm info lifecycle @babel/plugin-syntax-nullish-coalescing-operator@7.8.3~install: @babel/plugin-syntax-nullish-coalescing-operator@7.8.3
+npm info lifecycle @babel/plugin-proposal-nullish-coalescing-operator@7.17.12~install: @babel/plugin-proposal-nullish-coalescing-operator@7.17.12
+npm info lifecycle @babel/plugin-syntax-numeric-separator@7.10.4~install: @babel/plugin-syntax-numeric-separator@7.10.4
+npm info lifecycle @babel/plugin-proposal-numeric-separator@7.16.7~install: @babel/plugin-proposal-numeric-separator@7.16.7
+npm info lifecycle @babel/plugin-syntax-object-rest-spread@7.8.3~install: @babel/plugin-syntax-object-rest-spread@7.8.3
+npm info lifecycle @babel/plugin-syntax-optional-catch-binding@7.8.3~install: @babel/plugin-syntax-optional-catch-binding@7.8.3
+npm info lifecycle @babel/plugin-proposal-optional-catch-binding@7.16.7~install: @babel/plugin-proposal-optional-catch-binding@7.16.7
+npm info lifecycle @babel/plugin-syntax-optional-chaining@7.8.3~install: @babel/plugin-syntax-optional-chaining@7.8.3
+npm info lifecycle @babel/plugin-syntax-private-property-in-object@7.14.5~install: @babel/plugin-syntax-private-property-in-object@7.14.5
+npm info lifecycle @babel/plugin-syntax-top-level-await@7.14.5~install: @babel/plugin-syntax-top-level-await@7.14.5
+npm info lifecycle @babel/plugin-transform-arrow-functions@7.17.12~install: @babel/plugin-transform-arrow-functions@7.17.12
+npm info lifecycle @babel/plugin-transform-block-scoped-functions@7.16.7~install: @babel/plugin-transform-block-scoped-functions@7.16.7
+npm info lifecycle @babel/plugin-transform-block-scoping@7.18.4~install: @babel/plugin-transform-block-scoping@7.18.4
+npm info lifecycle @babel/plugin-transform-computed-properties@7.17.12~install: @babel/plugin-transform-computed-properties@7.17.12
+npm info lifecycle @babel/plugin-transform-destructuring@7.18.0~install: @babel/plugin-transform-destructuring@7.18.0
+npm info lifecycle @babel/plugin-transform-duplicate-keys@7.17.12~install: @babel/plugin-transform-duplicate-keys@7.17.12
+npm info lifecycle @babel/plugin-transform-for-of@7.18.1~install: @babel/plugin-transform-for-of@7.18.1
+npm info lifecycle @babel/plugin-transform-literals@7.17.12~install: @babel/plugin-transform-literals@7.17.12
+npm info lifecycle @babel/plugin-transform-member-expression-literals@7.16.7~install: @babel/plugin-transform-member-expression-literals@7.16.7
+npm info lifecycle @babel/plugin-transform-new-target@7.17.12~install: @babel/plugin-transform-new-target@7.17.12
+npm info lifecycle @babel/plugin-transform-parameters@7.17.12~install: @babel/plugin-transform-parameters@7.17.12
+npm info lifecycle @babel/plugin-transform-property-literals@7.16.7~install: @babel/plugin-transform-property-literals@7.16.7
+npm info lifecycle @babel/plugin-transform-react-display-name@7.16.7~install: @babel/plugin-transform-react-display-name@7.16.7
+npm info lifecycle @babel/plugin-transform-reserved-words@7.17.12~install: @babel/plugin-transform-reserved-words@7.17.12
+npm info lifecycle @babel/plugin-transform-shorthand-properties@7.16.7~install: @babel/plugin-transform-shorthand-properties@7.16.7
+npm info lifecycle @babel/plugin-transform-sticky-regex@7.16.7~install: @babel/plugin-transform-sticky-regex@7.16.7
+npm info lifecycle @babel/plugin-transform-template-literals@7.18.2~install: @babel/plugin-transform-template-literals@7.18.2
+npm info lifecycle @babel/plugin-transform-typeof-symbol@7.17.12~install: @babel/plugin-transform-typeof-symbol@7.17.12
+npm info lifecycle @babel/plugin-transform-unicode-escapes@7.16.7~install: @babel/plugin-transform-unicode-escapes@7.16.7
+npm info lifecycle @jridgewell/resolve-uri@3.0.7~install: @jridgewell/resolve-uri@3.0.7
+npm info lifecycle @jridgewell/set-array@1.1.1~install: @jridgewell/set-array@1.1.1
+npm info lifecycle @jridgewell/sourcemap-codec@1.4.13~install: @jridgewell/sourcemap-codec@1.4.13
+npm info lifecycle @jridgewell/gen-mapping@0.1.1~install: @jridgewell/gen-mapping@0.1.1
+npm info lifecycle @jridgewell/trace-mapping@0.3.13~install: @jridgewell/trace-mapping@0.3.13
+npm info lifecycle @ampproject/remapping@2.2.0~install: @ampproject/remapping@2.2.0
+npm info lifecycle @jridgewell/gen-mapping@0.3.1~install: @jridgewell/gen-mapping@0.3.1
+npm info lifecycle acorn@7.4.1~install: acorn@7.4.1
+npm info lifecycle acorn-walk@7.2.0~install: acorn-walk@7.2.0
+npm info lifecycle any-promise@1.3.0~install: any-promise@1.3.0
+npm info lifecycle bn.js@4.12.0~install: bn.js@4.12.0
+npm info lifecycle assert-plus@1.0.0~install: assert-plus@1.0.0
+npm info lifecycle inherits@2.0.1~install: inherits@2.0.1
+npm info lifecycle util@0.10.3~install: util@0.10.3
+npm info lifecycle assertion-error@1.1.0~install: assertion-error@1.1.0
+npm info lifecycle at-least-node@1.0.0~install: at-least-node@1.0.0
+npm info lifecycle available-typed-arrays@1.0.5~install: available-typed-arrays@1.0.5
+npm info lifecycle babel-plugin-add-module-exports@1.0.4~install: babel-plugin-add-module-exports@1.0.4
+npm info lifecycle regenerator-runtime@0.11.1~install: regenerator-runtime@0.11.1
+npm info lifecycle babelify@10.0.0~install: babelify@10.0.0
+npm info lifecycle balanced-match@1.0.2~install: balanced-match@1.0.2
+npm info lifecycle base64-js@1.5.1~install: base64-js@1.5.1
+npm info lifecycle becke-ch--regex--s0-0-v1--base--pl--lib@1.4.0~install: becke-ch--regex--s0-0-v1--base--pl--lib@1.4.0
+npm info lifecycle binary-extensions@2.2.0~install: binary-extensions@2.2.0
+npm info lifecycle bluebird@3.7.2~install: bluebird@3.7.2
+npm info lifecycle bn.js@5.2.1~install: bn.js@5.2.1
+npm info lifecycle brorand@1.1.0~install: brorand@1.1.0
+npm info lifecycle safe-buffer@5.2.1~install: safe-buffer@5.2.1
+npm info lifecycle buffer-from@1.1.2~install: buffer-from@1.1.2
+npm info lifecycle buffer-xor@1.0.3~install: buffer-xor@1.0.3
+npm info lifecycle builtin-status-codes@3.0.0~install: builtin-status-codes@3.0.0
+npm info lifecycle cached-path-relative@1.1.0~install: cached-path-relative@1.1.0
+npm info lifecycle caniuse-lite@1.0.30001346~install: caniuse-lite@1.0.30001346
+npm info lifecycle check-error@1.0.2~install: check-error@1.0.2
+npm info lifecycle colors@1.0.3~install: colors@1.0.3
+npm info lifecycle cli-table@0.3.11~install: cli-table@0.3.11
+npm info lifecycle coffeescript@1.12.7~install: coffeescript@1.12.7
+npm info lifecycle color-name@1.1.3~install: color-name@1.1.3
+npm info lifecycle color-convert@1.9.3~install: color-convert@1.9.3
+npm info lifecycle ansi-styles@3.2.1~install: ansi-styles@3.2.1
+npm info lifecycle colors@1.4.0~install: colors@1.4.0
+npm info lifecycle convert-source-map@1.1.3~install: convert-source-map@1.1.3
+npm info lifecycle commander@2.20.3~install: commander@2.20.3
+npm info lifecycle concat-map@0.0.1~install: concat-map@0.0.1
+npm info lifecycle brace-expansion@1.1.11~install: brace-expansion@1.1.11
+npm info lifecycle console-browserify@1.2.0~install: console-browserify@1.2.0
+npm info lifecycle constants-browserify@1.0.0~install: constants-browserify@1.0.0
+npm info lifecycle core-js@2.6.12~install: core-js@2.6.12
+npm info lifecycle babel-runtime@6.26.0~install: babel-runtime@6.26.0
+npm info lifecycle semver@7.0.0~install: semver@7.0.0
+npm info lifecycle core-util-is@1.0.3~install: core-util-is@1.0.3
+npm info lifecycle bn.js@4.12.0~install: bn.js@4.12.0
+npm info lifecycle cucumber-expressions@6.6.2~install: cucumber-expressions@6.6.2
+npm info lifecycle cucumber-tag-expressions@1.1.1~install: cucumber-tag-expressions@1.1.1
+npm info lifecycle cucumber-expressions@5.0.18~install: cucumber-expressions@5.0.18
+npm info lifecycle dargs@7.0.0~install: dargs@7.0.0
+npm info lifecycle dash-ast@1.0.0~install: dash-ast@1.0.0
+npm info lifecycle defined@1.0.0~install: defined@1.0.0
+npm info lifecycle diff@3.5.0~install: diff@3.5.0
+npm info lifecycle bn.js@4.12.0~install: bn.js@4.12.0
+npm info lifecycle domain-browser@1.2.0~install: domain-browser@1.2.0
+npm info lifecycle electron-to-chromium@1.4.144~install: electron-to-chromium@1.4.144
+npm info lifecycle bn.js@4.12.0~install: bn.js@4.12.0
+npm info lifecycle escalade@3.1.1~install: escalade@3.1.1
+npm info lifecycle escape-string-regexp@1.0.5~install: escape-string-regexp@1.0.5
+npm info lifecycle esprima@4.0.1~install: esprima@4.0.1
+npm info lifecycle esutils@2.0.3~install: esutils@2.0.3
+npm info lifecycle events@2.1.0~install: events@2.1.0
+npm info lifecycle type@2.6.0~install: type@2.6.0
+npm info lifecycle ext@1.6.0~install: ext@1.6.0
+npm info lifecycle extsprintf@1.4.1~install: extsprintf@1.4.1
+npm info lifecycle fast-safe-stringify@2.1.1~install: fast-safe-stringify@2.1.1
+npm info lifecycle figures@2.0.0~install: figures@2.0.0
+npm info lifecycle fs.realpath@1.0.0~install: fs.realpath@1.0.0
+npm info lifecycle fsevents@2.3.2~install: fsevents@2.3.2
+npm info lifecycle function-bind@1.1.1~install: function-bind@1.1.1
+npm info lifecycle functions-have-names@1.2.3~install: functions-have-names@1.2.3
+npm info lifecycle gensync@1.0.0-beta.2~install: gensync@1.0.0-beta.2
+npm info lifecycle get-assigned-identifiers@1.2.0~install: get-assigned-identifiers@1.2.0
+npm info lifecycle get-func-name@2.0.0~install: get-func-name@2.0.0
+npm info lifecycle gherkin@5.1.0~install: gherkin@5.1.0
+npm info lifecycle globals@11.12.0~install: globals@11.12.0
+npm info lifecycle graceful-fs@4.2.10~install: graceful-fs@4.2.10
+npm info lifecycle has@1.0.3~install: has@1.0.3
+npm info lifecycle has-bigints@1.0.2~install: has-bigints@1.0.2
+npm info lifecycle has-flag@3.0.0~install: has-flag@3.0.0
+npm info lifecycle has-symbols@1.0.3~install: has-symbols@1.0.3
+npm info lifecycle get-intrinsic@1.1.1~install: get-intrinsic@1.1.1
+npm info lifecycle call-bind@1.0.2~install: call-bind@1.0.2
+npm info lifecycle get-symbol-description@1.0.0~install: get-symbol-description@1.0.0
+npm info lifecycle has-property-descriptors@1.0.0~install: has-property-descriptors@1.0.0
+npm info lifecycle has-tostringtag@1.0.0~install: has-tostringtag@1.0.0
+npm info lifecycle safe-buffer@5.2.1~install: safe-buffer@5.2.1
+npm info lifecycle htmlescape@1.1.1~install: htmlescape@1.1.1
+npm info lifecycle https-browserify@1.0.0~install: https-browserify@1.0.0
+npm info lifecycle ieee754@1.2.1~install: ieee754@1.2.1
+npm info lifecycle buffer@5.2.1~install: buffer@5.2.1
+npm info lifecycle indent-string@3.2.0~install: indent-string@3.2.0
+npm info lifecycle inherits@2.0.4~install: inherits@2.0.4
+npm info lifecycle is-arguments@1.1.1~install: is-arguments@1.1.1
+npm info lifecycle is-arrayish@0.2.1~install: is-arrayish@0.2.1
+npm info lifecycle error-ex@1.3.2~install: error-ex@1.3.2
+npm info lifecycle is-bigint@1.0.4~install: is-bigint@1.0.4
+npm info lifecycle is-binary-path@2.1.0~install: is-binary-path@2.1.0
+npm info lifecycle is-boolean-object@1.1.2~install: is-boolean-object@1.1.2
+npm info lifecycle is-buffer@1.1.6~install: is-buffer@1.1.6
+npm info lifecycle is-callable@1.2.4~install: is-callable@1.2.4
+npm info lifecycle for-each@0.3.3~install: for-each@0.3.3
+npm info lifecycle is-core-module@2.9.0~install: is-core-module@2.9.0
+npm info lifecycle is-date-object@1.0.5~install: is-date-object@1.0.5
+npm info lifecycle is-directory@0.3.1~install: is-directory@0.3.1
+npm info lifecycle is-extglob@2.1.1~install: is-extglob@2.1.1
+npm info lifecycle is-generator@1.0.3~install: is-generator@1.0.3
+npm info lifecycle is-generator-function@1.0.10~install: is-generator-function@1.0.10
+npm info lifecycle is-glob@4.0.3~install: is-glob@4.0.3
+npm info lifecycle glob-parent@5.1.2~install: glob-parent@5.1.2
+npm info lifecycle is-negative-zero@2.0.2~install: is-negative-zero@2.0.2
+npm info lifecycle is-number@7.0.0~install: is-number@7.0.0
+npm info lifecycle is-number-object@1.0.7~install: is-number-object@1.0.7
+npm info lifecycle is-regex@1.1.4~install: is-regex@1.1.4
+npm info lifecycle is-shared-array-buffer@1.0.2~install: is-shared-array-buffer@1.0.2
+npm info lifecycle is-stream@1.1.0~install: is-stream@1.1.0
+npm info lifecycle is-string@1.0.7~install: is-string@1.0.7
+npm info lifecycle is-symbol@1.0.4~install: is-symbol@1.0.4
+npm info lifecycle es-to-primitive@1.2.1~install: es-to-primitive@1.2.1
+npm info lifecycle is-weakref@1.0.2~install: is-weakref@1.0.2
+npm info lifecycle isarray@1.0.0~install: isarray@1.0.0
+npm info lifecycle js-string-escape@1.0.1~install: js-string-escape@1.0.1
+npm info lifecycle js-tokens@4.0.0~install: js-tokens@4.0.0
+npm info lifecycle jsesc@2.5.2~install: jsesc@2.5.2
+npm info lifecycle json-parse-better-errors@1.0.2~install: json-parse-better-errors@1.0.2
+npm info lifecycle json5@2.2.1~install: json5@2.2.1
+npm info lifecycle jsonify@0.0.0~install: jsonify@0.0.0
+npm info lifecycle json-stable-stringify@0.0.1~install: json-stable-stringify@0.0.1
+npm info lifecycle jsonparse@1.3.1~install: jsonparse@1.3.1
+npm info lifecycle lodash@4.17.21~install: lodash@4.17.21
+npm info lifecycle lodash.clonedeep@4.5.0~install: lodash.clonedeep@4.5.0
+npm info lifecycle lodash.debounce@4.0.8~install: lodash.debounce@4.0.8
+npm info lifecycle lodash.memoize@3.0.4~install: lodash.memoize@3.0.4
+npm info lifecycle loupe@2.3.4~install: loupe@2.3.4
+npm info lifecycle lower-case@1.1.4~install: lower-case@1.1.4
+npm info lifecycle bn.js@4.12.0~install: bn.js@4.12.0
+npm info lifecycle miller-rabin@4.0.1~install: miller-rabin@4.0.1
+npm info lifecycle minimalistic-assert@1.0.1~install: minimalistic-assert@1.0.1
+npm info lifecycle des.js@1.0.1~install: des.js@1.0.1
+npm info lifecycle hash.js@1.1.7~install: hash.js@1.1.7
+npm info lifecycle minimalistic-crypto-utils@1.0.1~install: minimalistic-crypto-utils@1.0.1
+npm info lifecycle hmac-drbg@1.0.1~install: hmac-drbg@1.0.1
+npm info lifecycle elliptic@6.5.4~install: elliptic@6.5.4
+npm info lifecycle create-ecdh@4.0.4~install: create-ecdh@4.0.4
+npm info lifecycle minimatch@3.1.2~install: minimatch@3.1.2
+npm info lifecycle minimist@1.2.6~install: minimist@1.2.6
+npm info lifecycle mkdirp-classic@0.5.3~install: mkdirp-classic@0.5.3
+npm info lifecycle ms@2.1.2~install: ms@2.1.2
+npm info lifecycle debug@4.3.4~install: debug@4.3.4
+npm info lifecycle debug@4.3.4~install: debug@4.3.4
+npm info lifecycle debug@4.3.4~install: debug@4.3.4
+npm info lifecycle debug@4.3.4~install: debug@4.3.4
+npm info lifecycle debug@3.2.7~install: debug@3.2.7
+npm info lifecycle next-tick@1.1.0~install: next-tick@1.1.0
+npm info lifecycle no-case@2.3.2~install: no-case@2.3.2
+npm info lifecycle node-releases@2.0.5~install: node-releases@2.0.5
+npm info lifecycle normalize-path@3.0.0~install: normalize-path@3.0.0
+npm info lifecycle object-assign@4.1.1~install: object-assign@4.1.1
+npm info lifecycle assert@1.5.0~install: assert@1.5.0
+npm info lifecycle object-inspect@1.12.2~install: object-inspect@1.12.2
+npm info lifecycle object-keys@1.1.1~install: object-keys@1.1.1
+npm info lifecycle define-properties@1.1.4~install: define-properties@1.1.4
+npm info lifecycle object.assign@4.1.2~install: object.assign@4.1.2
+npm info lifecycle babel-plugin-dynamic-import-node@2.3.3~install: babel-plugin-dynamic-import-node@2.3.3
+npm info lifecycle os-browserify@0.3.0~install: os-browserify@0.3.0
+npm info lifecycle pako@1.0.11~install: pako@1.0.11
+npm info lifecycle browserify-zlib@0.2.0~install: browserify-zlib@0.2.0
+npm info lifecycle parse-json@4.0.0~install: parse-json@4.0.0
+npm info lifecycle path-browserify@0.0.1~install: path-browserify@0.0.1
+npm info lifecycle path-is-absolute@1.0.1~install: path-is-absolute@1.0.1
+npm info lifecycle path-parse@1.0.7~install: path-parse@1.0.7
+npm info lifecycle path-platform@0.11.15~install: path-platform@0.11.15
+npm info lifecycle parents@1.0.1~install: parents@1.0.1
+npm info lifecycle pathval@1.1.1~install: pathval@1.1.1
+npm info lifecycle picocolors@1.0.0~install: picocolors@1.0.0
+npm info lifecycle browserslist@4.20.3~install: browserslist@4.20.3
+npm info lifecycle core-js-compat@3.22.8~install: core-js-compat@3.22.8
+npm info lifecycle picomatch@2.3.1~install: picomatch@2.3.1
+npm info lifecycle anymatch@3.1.2~install: anymatch@3.1.2
+npm info lifecycle process@0.11.10~install: process@0.11.10
+npm info lifecycle process-nextick-args@2.0.1~install: process-nextick-args@2.0.1
+npm info lifecycle progress@2.0.3~install: progress@2.0.3
+npm info lifecycle bn.js@4.12.0~install: bn.js@4.12.0
+npm info lifecycle punycode@1.4.1~install: punycode@1.4.1
+npm info lifecycle querystring@0.2.0~install: querystring@0.2.0
+npm info lifecycle querystring-es3@0.2.1~install: querystring-es3@0.2.1
+npm info lifecycle readdirp@3.6.0~install: readdirp@3.6.0
+npm info lifecycle regenerate@1.4.2~install: regenerate@1.4.2
+npm info lifecycle regenerate-unicode-properties@10.0.1~install: regenerate-unicode-properties@10.0.1
+npm info lifecycle regenerator-runtime@0.13.9~install: regenerator-runtime@0.13.9
+npm info lifecycle @babel/runtime@7.18.3~install: @babel/runtime@7.18.3
+npm info lifecycle regenerator-transform@0.15.0~install: regenerator-transform@0.15.0
+npm info lifecycle @babel/plugin-transform-regenerator@7.18.0~install: @babel/plugin-transform-regenerator@7.18.0
+npm info lifecycle regexp.prototype.flags@1.4.3~install: regexp.prototype.flags@1.4.3
+npm info lifecycle regjsgen@0.6.0~install: regjsgen@0.6.0
+npm info lifecycle jsesc@0.5.0~install: jsesc@0.5.0
+npm info lifecycle regjsparser@0.8.4~install: regjsparser@0.8.4
+npm info lifecycle repeat-string@1.6.1~install: repeat-string@1.6.1
+npm info lifecycle pad-right@0.2.2~install: pad-right@0.2.2
+npm info lifecycle assertion-error-formatter@2.0.1~install: assertion-error-formatter@2.0.1
+npm info lifecycle require-from-string@2.0.2~install: require-from-string@2.0.2
+npm info lifecycle safe-buffer@5.1.2~install: safe-buffer@5.1.2
+npm info lifecycle cipher-base@1.0.4~install: cipher-base@1.0.4
+npm info lifecycle browserify-des@1.0.2~install: browserify-des@1.0.2
+npm info lifecycle convert-source-map@1.8.0~install: convert-source-map@1.8.0
+npm info lifecycle randombytes@2.1.0~install: randombytes@2.1.0
+npm info lifecycle browserify-rsa@4.1.0~install: browserify-rsa@4.1.0
+npm info lifecycle diffie-hellman@5.0.3~install: diffie-hellman@5.0.3
+npm info lifecycle randomfill@1.0.4~install: randomfill@1.0.4
+npm info lifecycle string_decoder@1.1.1~install: string_decoder@1.1.1
+npm info lifecycle safer-buffer@2.1.2~install: safer-buffer@2.1.2
+npm info lifecycle asn1.js@5.4.1~install: asn1.js@5.4.1
+npm info lifecycle seed-random@2.2.0~install: seed-random@2.2.0
+npm info lifecycle knuth-shuffle-seeded@1.0.6~install: knuth-shuffle-seeded@1.0.6
+npm info lifecycle semver@6.3.0~install: semver@6.3.0
+npm info lifecycle @babel/helper-compilation-targets@7.18.2~install: @babel/helper-compilation-targets@7.18.2
+npm info lifecycle @babel/plugin-proposal-object-rest-spread@7.18.0~install: @babel/plugin-proposal-object-rest-spread@7.18.0
+npm info lifecycle serialize-error@2.1.0~install: serialize-error@2.1.0
+npm info lifecycle sha.js@2.4.11~install: sha.js@2.4.11
+npm info lifecycle shasum@1.0.2~install: shasum@1.0.2
+npm info lifecycle shasum-object@1.0.0~install: shasum-object@1.0.0
+npm info lifecycle shell-quote@1.7.3~install: shell-quote@1.7.3
+npm info lifecycle outpipe@1.1.1~install: outpipe@1.1.1
+npm info lifecycle side-channel@1.0.4~install: side-channel@1.0.4
+npm info lifecycle internal-slot@1.0.3~install: internal-slot@1.0.3
+npm info lifecycle simple-concat@1.0.1~install: simple-concat@1.0.1
+npm info lifecycle source-map@0.5.7~install: source-map@0.5.7
+npm info lifecycle inline-source-map@0.6.2~install: inline-source-map@0.6.2
+npm info lifecycle combine-source-map@0.8.0~install: combine-source-map@0.8.0
+npm info lifecycle sprintf-js@1.0.3~install: sprintf-js@1.0.3
+npm info lifecycle argparse@1.0.10~install: argparse@1.0.10
+npm info lifecycle js-yaml@3.14.1~install: js-yaml@3.14.1
+npm info lifecycle cosmiconfig@4.0.0~install: cosmiconfig@4.0.0
+npm info lifecycle stack-chain@2.0.0~install: stack-chain@2.0.0
+npm info lifecycle stackframe@1.2.1~install: stackframe@1.2.1
+npm info lifecycle error-stack-parser@2.0.7~install: error-stack-parser@2.0.7
+npm info lifecycle stack-generator@2.0.5~install: stack-generator@2.0.5
+npm info lifecycle source-map@0.5.6~install: source-map@0.5.6
+npm info lifecycle stacktrace-gps@3.0.4~install: stacktrace-gps@3.0.4
+npm info lifecycle stacktrace-js@2.0.2~install: stacktrace-js@2.0.2
+npm info lifecycle safe-buffer@5.2.1~install: safe-buffer@5.2.1
+npm info lifecycle string_decoder@1.3.0~install: string_decoder@1.3.0
+npm info lifecycle string-argv@0.0.2~install: string-argv@0.0.2
+npm info lifecycle subarg@1.0.0~install: subarg@1.0.0
+npm info lifecycle supports-color@5.5.0~install: supports-color@5.5.0
+npm info lifecycle chalk@2.4.2~install: chalk@2.4.2
+npm info lifecycle @babel/highlight@7.17.12~install: @babel/highlight@7.17.12
+npm info lifecycle @babel/code-frame@7.16.7~install: @babel/code-frame@7.16.7
+npm info lifecycle supports-preserve-symlinks-flag@1.0.0~install: supports-preserve-symlinks-flag@1.0.0
+npm info lifecycle resolve@1.22.0~install: resolve@1.22.0
+npm info lifecycle browser-resolve@2.0.0~install: browser-resolve@2.0.0
+npm info lifecycle thenify@3.3.1~install: thenify@3.3.1
+npm info lifecycle thenify-all@1.6.0~install: thenify-all@1.6.0
+npm info lifecycle mz@2.7.0~install: mz@2.7.0
+npm info lifecycle through@2.3.8~install: through@2.3.8
+npm info lifecycle JSONStream@1.3.5~install: JSONStream@1.3.5
+npm info lifecycle timers-browserify@1.4.2~install: timers-browserify@1.4.2
+npm info lifecycle to-fast-properties@2.0.0~install: to-fast-properties@2.0.0
+npm info lifecycle @babel/types@7.18.4~install: @babel/types@7.18.4
+npm info lifecycle @babel/generator@7.18.2~install: @babel/generator@7.18.2
+npm info lifecycle @babel/helper-annotate-as-pure@7.16.7~install: @babel/helper-annotate-as-pure@7.16.7
+npm info lifecycle @babel/plugin-transform-react-pure-annotations@7.18.0~install: @babel/plugin-transform-react-pure-annotations@7.18.0
+npm info lifecycle @babel/helper-explode-assignable-expression@7.16.7~install: @babel/helper-explode-assignable-expression@7.16.7
+npm info lifecycle @babel/helper-builder-binary-assignment-operator-visitor@7.16.7~install: @babel/helper-builder-binary-assignment-operator-visitor@7.16.7
+npm info lifecycle @babel/plugin-transform-exponentiation-operator@7.16.7~install: @babel/plugin-transform-exponentiation-operator@7.16.7
+npm info lifecycle @babel/helper-hoist-variables@7.16.7~install: @babel/helper-hoist-variables@7.16.7
+npm info lifecycle @babel/helper-member-expression-to-functions@7.17.7~install: @babel/helper-member-expression-to-functions@7.17.7
+npm info lifecycle @babel/helper-module-imports@7.16.7~install: @babel/helper-module-imports@7.16.7
+npm info lifecycle @babel/helper-optimise-call-expression@7.16.7~install: @babel/helper-optimise-call-expression@7.16.7
+npm info lifecycle @babel/helper-simple-access@7.18.2~install: @babel/helper-simple-access@7.18.2
+npm info lifecycle @babel/helper-skip-transparent-expression-wrappers@7.16.0~install: @babel/helper-skip-transparent-expression-wrappers@7.16.0
+npm info lifecycle @babel/plugin-proposal-optional-chaining@7.17.12~install: @babel/plugin-proposal-optional-chaining@7.17.12
+npm info lifecycle @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.17.12~install: @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.17.12
+npm info lifecycle @babel/plugin-transform-spread@7.17.12~install: @babel/plugin-transform-spread@7.17.12
+npm info lifecycle @babel/helper-split-export-declaration@7.16.7~install: @babel/helper-split-export-declaration@7.16.7
+npm info lifecycle @babel/plugin-transform-react-jsx@7.17.12~install: @babel/plugin-transform-react-jsx@7.17.12
+npm info lifecycle @babel/plugin-transform-react-jsx-development@7.16.7~install: @babel/plugin-transform-react-jsx-development@7.16.7
+npm info lifecycle @babel/preset-react@7.17.12~install: @babel/preset-react@7.17.12
+npm info lifecycle @babel/template@7.16.7~install: @babel/template@7.16.7
+npm info lifecycle @babel/helper-function-name@7.17.9~install: @babel/helper-function-name@7.17.9
+npm info lifecycle @babel/plugin-transform-function-name@7.16.7~install: @babel/plugin-transform-function-name@7.16.7
+npm info lifecycle @babel/traverse@7.18.2~install: @babel/traverse@7.18.2
+npm info lifecycle @babel/helper-define-polyfill-provider@0.3.1~install: @babel/helper-define-polyfill-provider@0.3.1
+npm info lifecycle babel-plugin-polyfill-corejs2@0.3.1~install: babel-plugin-polyfill-corejs2@0.3.1
+npm info lifecycle babel-plugin-polyfill-corejs3@0.5.2~install: babel-plugin-polyfill-corejs3@0.5.2
+npm info lifecycle babel-plugin-polyfill-regenerator@0.3.1~install: babel-plugin-polyfill-regenerator@0.3.1
+npm info lifecycle @babel/plugin-transform-runtime@7.18.2~install: @babel/plugin-transform-runtime@7.18.2
+npm info lifecycle @babel/helper-module-transforms@7.18.0~install: @babel/helper-module-transforms@7.18.0
+npm info lifecycle @babel/plugin-transform-modules-amd@7.18.0~install: @babel/plugin-transform-modules-amd@7.18.0
+npm info lifecycle @babel/plugin-transform-modules-commonjs@7.18.2~install: @babel/plugin-transform-modules-commonjs@7.18.2
+npm info lifecycle @babel/plugin-transform-modules-systemjs@7.18.4~install: @babel/plugin-transform-modules-systemjs@7.18.4
+npm info lifecycle @babel/plugin-transform-modules-umd@7.18.0~install: @babel/plugin-transform-modules-umd@7.18.0
+npm info lifecycle @babel/helper-replace-supers@7.18.2~install: @babel/helper-replace-supers@7.18.2
+npm info lifecycle @babel/helper-create-class-features-plugin@7.18.0~install: @babel/helper-create-class-features-plugin@7.18.0
+npm info lifecycle @babel/plugin-proposal-class-properties@7.17.12~install: @babel/plugin-proposal-class-properties@7.17.12
+npm info lifecycle @babel/plugin-proposal-class-static-block@7.18.0~install: @babel/plugin-proposal-class-static-block@7.18.0
+npm info lifecycle @babel/plugin-proposal-private-methods@7.17.12~install: @babel/plugin-proposal-private-methods@7.17.12
+npm info lifecycle @babel/plugin-proposal-private-property-in-object@7.17.12~install: @babel/plugin-proposal-private-property-in-object@7.17.12
+npm info lifecycle @babel/plugin-transform-classes@7.18.4~install: @babel/plugin-transform-classes@7.18.4
+npm info lifecycle @babel/plugin-transform-object-super@7.16.7~install: @babel/plugin-transform-object-super@7.16.7
+npm info lifecycle @babel/helper-wrap-function@7.16.8~install: @babel/helper-wrap-function@7.16.8
+npm info lifecycle @babel/helper-remap-async-to-generator@7.16.8~install: @babel/helper-remap-async-to-generator@7.16.8
+npm info lifecycle @babel/plugin-proposal-async-generator-functions@7.17.12~install: @babel/plugin-proposal-async-generator-functions@7.17.12
+npm info lifecycle @babel/plugin-transform-async-to-generator@7.17.12~install: @babel/plugin-transform-async-to-generator@7.17.12
+npm info lifecycle @babel/helpers@7.18.2~install: @babel/helpers@7.18.2
+npm info lifecycle @babel/core@7.18.2~install: @babel/core@7.18.2
+npm info lifecycle to-regex-range@5.0.1~install: to-regex-range@5.0.1
+npm info lifecycle fill-range@7.0.1~install: fill-range@7.0.1
+npm info lifecycle braces@3.0.2~install: braces@3.0.2
+npm info lifecycle chokidar@3.5.2~install: chokidar@3.5.2
+npm info lifecycle tty-browserify@0.0.1~install: tty-browserify@0.0.1
+npm info lifecycle type@1.2.0~install: type@1.2.0
+npm info lifecycle d@1.0.1~install: d@1.0.1
+npm info lifecycle es6-symbol@3.1.3~install: es6-symbol@3.1.3
+npm info lifecycle es6-iterator@2.0.3~install: es6-iterator@2.0.3
+npm info lifecycle es5-ext@0.10.61~install: es5-ext@0.10.61
+npm info lifecycle duration@0.2.2~install: duration@0.2.2
+npm info lifecycle type-detect@4.0.8~install: type-detect@4.0.8
+npm info lifecycle deep-eql@3.0.1~install: deep-eql@3.0.1
+npm info lifecycle chai@4.3.6~install: chai@4.3.6
+npm info lifecycle typedarray@0.0.6~install: typedarray@0.0.6
+npm info lifecycle umd@3.0.3~install: umd@3.0.3
+npm info lifecycle unicode-canonical-property-names-ecmascript@2.0.0~install: unicode-canonical-property-names-ecmascript@2.0.0
+npm info lifecycle unicode-match-property-value-ecmascript@2.0.0~install: unicode-match-property-value-ecmascript@2.0.0
+npm info lifecycle unicode-property-aliases-ecmascript@2.0.0~install: unicode-property-aliases-ecmascript@2.0.0
+npm info lifecycle unicode-match-property-ecmascript@2.0.0~install: unicode-match-property-ecmascript@2.0.0
+npm info lifecycle regexpu-core@5.0.1~install: regexpu-core@5.0.1
+npm info lifecycle @babel/helper-create-regexp-features-plugin@7.17.12~install: @babel/helper-create-regexp-features-plugin@7.17.12
+npm info lifecycle @babel/plugin-proposal-unicode-property-regex@7.17.12~install: @babel/plugin-proposal-unicode-property-regex@7.17.12
+npm info lifecycle @babel/plugin-transform-dotall-regex@7.16.7~install: @babel/plugin-transform-dotall-regex@7.16.7
+npm info lifecycle @babel/preset-modules@0.1.5~install: @babel/preset-modules@0.1.5
+npm info lifecycle @babel/plugin-transform-named-capturing-groups-regex@7.17.12~install: @babel/plugin-transform-named-capturing-groups-regex@7.17.12
+npm info lifecycle @babel/plugin-transform-unicode-regex@7.16.7~install: @babel/plugin-transform-unicode-regex@7.16.7
+npm info lifecycle @babel/preset-env@7.18.2~install: @babel/preset-env@7.18.2
+npm info lifecycle universalify@2.0.0~install: universalify@2.0.0
+npm info lifecycle jsonfile@6.1.0~install: jsonfile@6.1.0
+npm info lifecycle fs-extra@9.1.0~install: fs-extra@9.1.0
+npm info lifecycle upper-case@1.1.3~install: upper-case@1.1.3
+npm info lifecycle title-case@2.1.1~install: title-case@2.1.1
+npm info lifecycle punycode@1.3.2~install: punycode@1.3.2
+npm info lifecycle url@0.11.0~install: url@0.11.0
+npm info lifecycle util-arity@1.1.0~install: util-arity@1.1.0
+npm info lifecycle util-deprecate@1.0.2~install: util-deprecate@1.0.2
+npm info lifecycle readable-stream@3.6.0~install: readable-stream@3.6.0
+npm info lifecycle readable-stream@3.6.0~install: readable-stream@3.6.0
+npm info lifecycle hash-base@3.1.0~install: hash-base@3.1.0
+npm info lifecycle md5.js@1.3.5~install: md5.js@1.3.5
+npm info lifecycle evp_bytestokey@1.0.3~install: evp_bytestokey@1.0.3
+npm info lifecycle ripemd160@2.0.2~install: ripemd160@2.0.2
+npm info lifecycle create-hash@1.2.0~install: create-hash@1.2.0
+npm info lifecycle browserify-aes@1.2.0~install: browserify-aes@1.2.0
+npm info lifecycle browserify-cipher@1.0.1~install: browserify-cipher@1.0.1
+npm info lifecycle create-hmac@1.1.7~install: create-hmac@1.1.7
+npm info lifecycle pbkdf2@3.1.2~install: pbkdf2@3.1.2
+npm info lifecycle parse-asn1@5.1.6~install: parse-asn1@5.1.6
+npm info lifecycle browserify-sign@4.2.1~install: browserify-sign@4.2.1
+npm info lifecycle public-encrypt@4.0.3~install: public-encrypt@4.0.3
+npm info lifecycle crypto-browserify@3.12.0~install: crypto-browserify@3.12.0
+npm info lifecycle readable-stream@2.3.7~install: readable-stream@2.3.7
+npm info lifecycle concat-stream@1.6.2~install: concat-stream@1.6.2
+npm info lifecycle duplexer2@0.1.4~install: duplexer2@0.1.4
+npm info lifecycle read-only-stream@2.0.0~install: read-only-stream@2.0.0
+npm info lifecycle stream-browserify@2.0.2~install: stream-browserify@2.0.2
+npm info lifecycle stream-combiner2@1.1.1~install: stream-combiner2@1.1.1
+npm info lifecycle stream-splicer@2.0.1~install: stream-splicer@2.0.1
+npm info lifecycle labeled-stream-splicer@2.0.2~install: labeled-stream-splicer@2.0.2
+npm info lifecycle readable-stream@3.6.0~install: readable-stream@3.6.0
+npm info lifecycle inherits@2.0.3~install: inherits@2.0.3
+npm info lifecycle util@0.10.4~install: util@0.10.4
+npm info lifecycle core-util-is@1.0.2~install: core-util-is@1.0.2
+npm info lifecycle verror@1.10.1~install: verror@1.10.1
+npm info lifecycle vm-browserify@1.1.2~install: vm-browserify@1.1.2
+npm info lifecycle events@3.3.0~install: events@3.3.0
+npm info lifecycle path-browserify@1.0.1~install: path-browserify@1.0.1
+npm info lifecycle readable-stream@3.6.0~install: readable-stream@3.6.0
+npm info lifecycle stream-browserify@3.0.0~install: stream-browserify@3.0.0
+npm info lifecycle readable-stream@3.6.0~install: readable-stream@3.6.0
+npm info lifecycle through2@4.0.2~install: through2@4.0.2
+npm info lifecycle which-boxed-primitive@1.0.2~install: which-boxed-primitive@1.0.2
+npm info lifecycle unbox-primitive@1.0.2~install: unbox-primitive@1.0.2
+npm info lifecycle es-abstract@1.20.1~install: es-abstract@1.20.1
+npm info lifecycle function.prototype.name@1.1.5~install: function.prototype.name@1.1.5
+npm info lifecycle is-typed-array@1.1.9~install: is-typed-array@1.1.9
+npm info lifecycle string.prototype.trimend@1.0.5~install: string.prototype.trimend@1.0.5
+npm info lifecycle string.prototype.trimstart@1.0.5~install: string.prototype.trimstart@1.0.5
+npm info lifecycle which-typed-array@1.1.8~install: which-typed-array@1.1.8
+npm info lifecycle util@0.12.4~install: util@0.12.4
+npm info lifecycle wrappy@1.0.2~install: wrappy@1.0.2
+npm info lifecycle once@1.4.0~install: once@1.4.0
+npm info lifecycle inflight@1.0.6~install: inflight@1.0.6
+npm info lifecycle glob@7.2.3~install: glob@7.2.3
+npm info lifecycle cucumber@4.2.1~install: cucumber@4.2.1
+npm info lifecycle xtend@4.0.2~install: xtend@4.0.2
+npm info lifecycle acorn-node@1.8.2~install: acorn-node@1.8.2
+npm info lifecycle detective@5.2.1~install: detective@5.2.1
+npm info lifecycle syntax-error@1.4.0~install: syntax-error@1.4.0
+npm info lifecycle stream-http@3.2.0~install: stream-http@3.2.0
+npm info lifecycle through2@2.0.5~install: through2@2.0.5
+npm info lifecycle browser-pack@6.1.0~install: browser-pack@6.1.0
+npm info lifecycle coffeeify@3.0.1~install: coffeeify@3.0.1
+npm info lifecycle deps-sort@2.0.1~install: deps-sort@2.0.1
+npm info lifecycle module-deps@6.2.3~install: module-deps@6.2.3
+npm info lifecycle undeclared-identifiers@1.1.3~install: undeclared-identifiers@1.1.3
+npm info lifecycle insert-module-globals@7.2.1~install: insert-module-globals@7.2.1
+npm info lifecycle browserify@16.5.2~install: browserify@16.5.2
+npm info lifecycle through2@2.0.5~install: through2@2.0.5
+npm info lifecycle browserify@17.0.0~install: browserify@17.0.0
+npm info lifecycle watchify@4.0.0~install: watchify@4.0.0
+npm info lifecycle @cypress/browserify-preprocessor@3.0.2~install: @cypress/browserify-preprocessor@3.0.2
+npm info lifecycle cypress-cucumber-preprocessor@4.3.1~install: cypress-cucumber-preprocessor@4.3.1
+npm timing action:install Completed in 108ms
+npm info lifecycle @babel/compat-data@7.17.10~postinstall: @babel/compat-data@7.17.10
+npm info lifecycle @babel/helper-environment-visitor@7.18.2~postinstall: @babel/helper-environment-visitor@7.18.2
+npm info lifecycle @babel/helper-plugin-utils@7.17.12~postinstall: @babel/helper-plugin-utils@7.17.12
+npm info lifecycle @babel/helper-validator-identifier@7.16.7~postinstall: @babel/helper-validator-identifier@7.16.7
+npm info lifecycle @babel/helper-validator-option@7.16.7~postinstall: @babel/helper-validator-option@7.16.7
+npm info lifecycle @babel/parser@7.18.4~postinstall: @babel/parser@7.18.4
+npm info lifecycle @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.17.12~postinstall: @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.17.12
+npm info lifecycle @babel/plugin-syntax-async-generators@7.8.4~postinstall: @babel/plugin-syntax-async-generators@7.8.4
+npm info lifecycle @babel/plugin-syntax-class-properties@7.12.13~postinstall: @babel/plugin-syntax-class-properties@7.12.13
+npm info lifecycle @babel/plugin-syntax-class-static-block@7.14.5~postinstall: @babel/plugin-syntax-class-static-block@7.14.5
+npm info lifecycle @babel/plugin-syntax-dynamic-import@7.8.3~postinstall: @babel/plugin-syntax-dynamic-import@7.8.3
+npm info lifecycle @babel/plugin-proposal-dynamic-import@7.16.7~postinstall: @babel/plugin-proposal-dynamic-import@7.16.7
+npm info lifecycle @babel/plugin-syntax-export-namespace-from@7.8.3~postinstall: @babel/plugin-syntax-export-namespace-from@7.8.3
+npm info lifecycle @babel/plugin-proposal-export-namespace-from@7.17.12~postinstall: @babel/plugin-proposal-export-namespace-from@7.17.12
+npm info lifecycle @babel/plugin-syntax-import-assertions@7.17.12~postinstall: @babel/plugin-syntax-import-assertions@7.17.12
+npm info lifecycle @babel/plugin-syntax-json-strings@7.8.3~postinstall: @babel/plugin-syntax-json-strings@7.8.3
+npm info lifecycle @babel/plugin-proposal-json-strings@7.17.12~postinstall: @babel/plugin-proposal-json-strings@7.17.12
+npm info lifecycle @babel/plugin-syntax-jsx@7.17.12~postinstall: @babel/plugin-syntax-jsx@7.17.12
+npm info lifecycle @babel/plugin-syntax-logical-assignment-operators@7.10.4~postinstall: @babel/plugin-syntax-logical-assignment-operators@7.10.4
+npm info lifecycle @babel/plugin-proposal-logical-assignment-operators@7.17.12~postinstall: @babel/plugin-proposal-logical-assignment-operators@7.17.12
+npm info lifecycle @babel/plugin-syntax-nullish-coalescing-operator@7.8.3~postinstall: @babel/plugin-syntax-nullish-coalescing-operator@7.8.3
+npm info lifecycle @babel/plugin-proposal-nullish-coalescing-operator@7.17.12~postinstall: @babel/plugin-proposal-nullish-coalescing-operator@7.17.12
+npm info lifecycle @babel/plugin-syntax-numeric-separator@7.10.4~postinstall: @babel/plugin-syntax-numeric-separator@7.10.4
+npm info lifecycle @babel/plugin-proposal-numeric-separator@7.16.7~postinstall: @babel/plugin-proposal-numeric-separator@7.16.7
+npm info lifecycle @babel/plugin-syntax-object-rest-spread@7.8.3~postinstall: @babel/plugin-syntax-object-rest-spread@7.8.3
+npm info lifecycle @babel/plugin-syntax-optional-catch-binding@7.8.3~postinstall: @babel/plugin-syntax-optional-catch-binding@7.8.3
+npm info lifecycle @babel/plugin-proposal-optional-catch-binding@7.16.7~postinstall: @babel/plugin-proposal-optional-catch-binding@7.16.7
+npm info lifecycle @babel/plugin-syntax-optional-chaining@7.8.3~postinstall: @babel/plugin-syntax-optional-chaining@7.8.3
+npm info lifecycle @babel/plugin-syntax-private-property-in-object@7.14.5~postinstall: @babel/plugin-syntax-private-property-in-object@7.14.5
+npm info lifecycle @babel/plugin-syntax-top-level-await@7.14.5~postinstall: @babel/plugin-syntax-top-level-await@7.14.5
+npm info lifecycle @babel/plugin-transform-arrow-functions@7.17.12~postinstall: @babel/plugin-transform-arrow-functions@7.17.12
+npm info lifecycle @babel/plugin-transform-block-scoped-functions@7.16.7~postinstall: @babel/plugin-transform-block-scoped-functions@7.16.7
+npm info lifecycle @babel/plugin-transform-block-scoping@7.18.4~postinstall: @babel/plugin-transform-block-scoping@7.18.4
+npm info lifecycle @babel/plugin-transform-computed-properties@7.17.12~postinstall: @babel/plugin-transform-computed-properties@7.17.12
+npm info lifecycle @babel/plugin-transform-destructuring@7.18.0~postinstall: @babel/plugin-transform-destructuring@7.18.0
+npm info lifecycle @babel/plugin-transform-duplicate-keys@7.17.12~postinstall: @babel/plugin-transform-duplicate-keys@7.17.12
+npm info lifecycle @babel/plugin-transform-for-of@7.18.1~postinstall: @babel/plugin-transform-for-of@7.18.1
+npm info lifecycle @babel/plugin-transform-literals@7.17.12~postinstall: @babel/plugin-transform-literals@7.17.12
+npm info lifecycle @babel/plugin-transform-member-expression-literals@7.16.7~postinstall: @babel/plugin-transform-member-expression-literals@7.16.7
+npm info lifecycle @babel/plugin-transform-new-target@7.17.12~postinstall: @babel/plugin-transform-new-target@7.17.12
+npm info lifecycle @babel/plugin-transform-parameters@7.17.12~postinstall: @babel/plugin-transform-parameters@7.17.12
+npm info lifecycle @babel/plugin-transform-property-literals@7.16.7~postinstall: @babel/plugin-transform-property-literals@7.16.7
+npm info lifecycle @babel/plugin-transform-react-display-name@7.16.7~postinstall: @babel/plugin-transform-react-display-name@7.16.7
+npm info lifecycle @babel/plugin-transform-reserved-words@7.17.12~postinstall: @babel/plugin-transform-reserved-words@7.17.12
+npm info lifecycle @babel/plugin-transform-shorthand-properties@7.16.7~postinstall: @babel/plugin-transform-shorthand-properties@7.16.7
+npm info lifecycle @babel/plugin-transform-sticky-regex@7.16.7~postinstall: @babel/plugin-transform-sticky-regex@7.16.7
+npm info lifecycle @babel/plugin-transform-template-literals@7.18.2~postinstall: @babel/plugin-transform-template-literals@7.18.2
+npm info lifecycle @babel/plugin-transform-typeof-symbol@7.17.12~postinstall: @babel/plugin-transform-typeof-symbol@7.17.12
+npm info lifecycle @babel/plugin-transform-unicode-escapes@7.16.7~postinstall: @babel/plugin-transform-unicode-escapes@7.16.7
+npm info lifecycle @jridgewell/resolve-uri@3.0.7~postinstall: @jridgewell/resolve-uri@3.0.7
+npm info lifecycle @jridgewell/set-array@1.1.1~postinstall: @jridgewell/set-array@1.1.1
+npm info lifecycle @jridgewell/sourcemap-codec@1.4.13~postinstall: @jridgewell/sourcemap-codec@1.4.13
+npm info lifecycle @jridgewell/gen-mapping@0.1.1~postinstall: @jridgewell/gen-mapping@0.1.1
+npm info lifecycle @jridgewell/trace-mapping@0.3.13~postinstall: @jridgewell/trace-mapping@0.3.13
+npm info lifecycle @ampproject/remapping@2.2.0~postinstall: @ampproject/remapping@2.2.0
+npm info lifecycle @jridgewell/gen-mapping@0.3.1~postinstall: @jridgewell/gen-mapping@0.3.1
+npm info lifecycle acorn@7.4.1~postinstall: acorn@7.4.1
+npm info lifecycle acorn-walk@7.2.0~postinstall: acorn-walk@7.2.0
+npm info lifecycle any-promise@1.3.0~postinstall: any-promise@1.3.0
+npm info lifecycle bn.js@4.12.0~postinstall: bn.js@4.12.0
+npm info lifecycle assert-plus@1.0.0~postinstall: assert-plus@1.0.0
+npm info lifecycle inherits@2.0.1~postinstall: inherits@2.0.1
+npm info lifecycle util@0.10.3~postinstall: util@0.10.3
+npm info lifecycle assertion-error@1.1.0~postinstall: assertion-error@1.1.0
+npm info lifecycle at-least-node@1.0.0~postinstall: at-least-node@1.0.0
+npm info lifecycle available-typed-arrays@1.0.5~postinstall: available-typed-arrays@1.0.5
+npm info lifecycle babel-plugin-add-module-exports@1.0.4~postinstall: babel-plugin-add-module-exports@1.0.4
+npm info lifecycle regenerator-runtime@0.11.1~postinstall: regenerator-runtime@0.11.1
+npm info lifecycle babelify@10.0.0~postinstall: babelify@10.0.0
+npm info lifecycle balanced-match@1.0.2~postinstall: balanced-match@1.0.2
+npm info lifecycle base64-js@1.5.1~postinstall: base64-js@1.5.1
+npm info lifecycle becke-ch--regex--s0-0-v1--base--pl--lib@1.4.0~postinstall: becke-ch--regex--s0-0-v1--base--pl--lib@1.4.0
+npm info lifecycle binary-extensions@2.2.0~postinstall: binary-extensions@2.2.0
+npm info lifecycle bluebird@3.7.2~postinstall: bluebird@3.7.2
+npm info lifecycle bn.js@5.2.1~postinstall: bn.js@5.2.1
+npm info lifecycle brorand@1.1.0~postinstall: brorand@1.1.0
+npm info lifecycle safe-buffer@5.2.1~postinstall: safe-buffer@5.2.1
+npm info lifecycle buffer-from@1.1.2~postinstall: buffer-from@1.1.2
+npm info lifecycle buffer-xor@1.0.3~postinstall: buffer-xor@1.0.3
+npm info lifecycle builtin-status-codes@3.0.0~postinstall: builtin-status-codes@3.0.0
+npm info lifecycle cached-path-relative@1.1.0~postinstall: cached-path-relative@1.1.0
+npm info lifecycle caniuse-lite@1.0.30001346~postinstall: caniuse-lite@1.0.30001346
+npm info lifecycle check-error@1.0.2~postinstall: check-error@1.0.2
+npm info lifecycle colors@1.0.3~postinstall: colors@1.0.3
+npm info lifecycle cli-table@0.3.11~postinstall: cli-table@0.3.11
+npm info lifecycle coffeescript@1.12.7~postinstall: coffeescript@1.12.7
+npm info lifecycle color-name@1.1.3~postinstall: color-name@1.1.3
+npm info lifecycle color-convert@1.9.3~postinstall: color-convert@1.9.3
+npm info lifecycle ansi-styles@3.2.1~postinstall: ansi-styles@3.2.1
+npm info lifecycle colors@1.4.0~postinstall: colors@1.4.0
+npm info lifecycle convert-source-map@1.1.3~postinstall: convert-source-map@1.1.3
+npm info lifecycle commander@2.20.3~postinstall: commander@2.20.3
+npm info lifecycle concat-map@0.0.1~postinstall: concat-map@0.0.1
+npm info lifecycle brace-expansion@1.1.11~postinstall: brace-expansion@1.1.11
+npm info lifecycle console-browserify@1.2.0~postinstall: console-browserify@1.2.0
+npm info lifecycle constants-browserify@1.0.0~postinstall: constants-browserify@1.0.0
+npm info lifecycle core-js@2.6.12~postinstall: core-js@2.6.12
+
+> core-js@2.6.12 postinstall /Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+npm verb lifecycle core-js@2.6.12~postinstall: unsafe-perm in lifecycle true
+npm verb lifecycle core-js@2.6.12~postinstall: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/core-js/node_modules/.bin:/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/kailashpathak/Documents/cypress_with_cucumber/node_modules/.bin:/usr/local/opt/node@10/bin:/usr/local/opt/node@10/bin:/usr/local/opt/node@10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/node@10/bin
+npm verb lifecycle core-js@2.6.12~postinstall: CWD: /Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/core-js
+npm info lifecycle babel-runtime@6.26.0~postinstall: babel-runtime@6.26.0
+npm info lifecycle semver@7.0.0~postinstall: semver@7.0.0
+npm info lifecycle core-util-is@1.0.3~postinstall: core-util-is@1.0.3
+npm info lifecycle bn.js@4.12.0~postinstall: bn.js@4.12.0
+npm info lifecycle cucumber-expressions@6.6.2~postinstall: cucumber-expressions@6.6.2
+npm info lifecycle cucumber-tag-expressions@1.1.1~postinstall: cucumber-tag-expressions@1.1.1
+npm info lifecycle cucumber-expressions@5.0.18~postinstall: cucumber-expressions@5.0.18
+
+> cucumber-expressions@5.0.18 postinstall /Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/cucumber/node_modules/cucumber-expressions
+> node scripts/postinstall.js
+
+npm verb lifecycle cucumber-expressions@5.0.18~postinstall: unsafe-perm in lifecycle true
+npm verb lifecycle cucumber-expressions@5.0.18~postinstall: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/cucumber/node_modules/cucumber-expressions/node_modules/.bin:/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/cucumber/node_modules/.bin:/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/kailashpathak/Documents/cypress_with_cucumber/node_modules/.bin:/usr/local/opt/node@10/bin:/usr/local/opt/node@10/bin:/usr/local/opt/node@10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/node@10/bin
+npm verb lifecycle cucumber-expressions@5.0.18~postinstall: CWD: /Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/cucumber/node_modules/cucumber-expressions
+npm info lifecycle dargs@7.0.0~postinstall: dargs@7.0.0
+npm info lifecycle dash-ast@1.0.0~postinstall: dash-ast@1.0.0
+npm info lifecycle defined@1.0.0~postinstall: defined@1.0.0
+npm info lifecycle diff@3.5.0~postinstall: diff@3.5.0
+npm info lifecycle bn.js@4.12.0~postinstall: bn.js@4.12.0
+npm info lifecycle domain-browser@1.2.0~postinstall: domain-browser@1.2.0
+npm info lifecycle electron-to-chromium@1.4.144~postinstall: electron-to-chromium@1.4.144
+npm info lifecycle bn.js@4.12.0~postinstall: bn.js@4.12.0
+npm info lifecycle escalade@3.1.1~postinstall: escalade@3.1.1
+npm info lifecycle escape-string-regexp@1.0.5~postinstall: escape-string-regexp@1.0.5
+npm info lifecycle esprima@4.0.1~postinstall: esprima@4.0.1
+npm info lifecycle esutils@2.0.3~postinstall: esutils@2.0.3
+npm info lifecycle events@2.1.0~postinstall: events@2.1.0
+npm info lifecycle type@2.6.0~postinstall: type@2.6.0
+npm info lifecycle ext@1.6.0~postinstall: ext@1.6.0
+npm info lifecycle extsprintf@1.4.1~postinstall: extsprintf@1.4.1
+npm info lifecycle fast-safe-stringify@2.1.1~postinstall: fast-safe-stringify@2.1.1
+npm info lifecycle figures@2.0.0~postinstall: figures@2.0.0
+npm info lifecycle fs.realpath@1.0.0~postinstall: fs.realpath@1.0.0
+npm info lifecycle fsevents@2.3.2~postinstall: fsevents@2.3.2
+npm info lifecycle function-bind@1.1.1~postinstall: function-bind@1.1.1
+npm info lifecycle functions-have-names@1.2.3~postinstall: functions-have-names@1.2.3
+npm info lifecycle gensync@1.0.0-beta.2~postinstall: gensync@1.0.0-beta.2
+npm info lifecycle get-assigned-identifiers@1.2.0~postinstall: get-assigned-identifiers@1.2.0
+npm info lifecycle get-func-name@2.0.0~postinstall: get-func-name@2.0.0
+npm info lifecycle gherkin@5.1.0~postinstall: gherkin@5.1.0
+npm info lifecycle globals@11.12.0~postinstall: globals@11.12.0
+npm info lifecycle graceful-fs@4.2.10~postinstall: graceful-fs@4.2.10
+npm info lifecycle has@1.0.3~postinstall: has@1.0.3
+npm info lifecycle has-bigints@1.0.2~postinstall: has-bigints@1.0.2
+npm info lifecycle has-flag@3.0.0~postinstall: has-flag@3.0.0
+npm info lifecycle has-symbols@1.0.3~postinstall: has-symbols@1.0.3
+npm info lifecycle get-intrinsic@1.1.1~postinstall: get-intrinsic@1.1.1
+npm info lifecycle call-bind@1.0.2~postinstall: call-bind@1.0.2
+npm info lifecycle get-symbol-description@1.0.0~postinstall: get-symbol-description@1.0.0
+npm info lifecycle has-property-descriptors@1.0.0~postinstall: has-property-descriptors@1.0.0
+npm info lifecycle has-tostringtag@1.0.0~postinstall: has-tostringtag@1.0.0
+npm info lifecycle safe-buffer@5.2.1~postinstall: safe-buffer@5.2.1
+npm info lifecycle htmlescape@1.1.1~postinstall: htmlescape@1.1.1
+npm info lifecycle https-browserify@1.0.0~postinstall: https-browserify@1.0.0
+npm info lifecycle ieee754@1.2.1~postinstall: ieee754@1.2.1
+npm info lifecycle buffer@5.2.1~postinstall: buffer@5.2.1
+npm info lifecycle indent-string@3.2.0~postinstall: indent-string@3.2.0
+npm info lifecycle inherits@2.0.4~postinstall: inherits@2.0.4
+npm info lifecycle is-arguments@1.1.1~postinstall: is-arguments@1.1.1
+npm info lifecycle is-arrayish@0.2.1~postinstall: is-arrayish@0.2.1
+npm info lifecycle error-ex@1.3.2~postinstall: error-ex@1.3.2
+npm info lifecycle is-bigint@1.0.4~postinstall: is-bigint@1.0.4
+npm info lifecycle is-binary-path@2.1.0~postinstall: is-binary-path@2.1.0
+npm info lifecycle is-boolean-object@1.1.2~postinstall: is-boolean-object@1.1.2
+npm info lifecycle is-buffer@1.1.6~postinstall: is-buffer@1.1.6
+npm info lifecycle is-callable@1.2.4~postinstall: is-callable@1.2.4
+npm info lifecycle for-each@0.3.3~postinstall: for-each@0.3.3
+npm info lifecycle is-core-module@2.9.0~postinstall: is-core-module@2.9.0
+npm info lifecycle is-date-object@1.0.5~postinstall: is-date-object@1.0.5
+npm info lifecycle is-directory@0.3.1~postinstall: is-directory@0.3.1
+npm info lifecycle is-extglob@2.1.1~postinstall: is-extglob@2.1.1
+npm info lifecycle is-generator@1.0.3~postinstall: is-generator@1.0.3
+npm info lifecycle is-generator-function@1.0.10~postinstall: is-generator-function@1.0.10
+npm info lifecycle is-glob@4.0.3~postinstall: is-glob@4.0.3
+npm info lifecycle glob-parent@5.1.2~postinstall: glob-parent@5.1.2
+npm info lifecycle is-negative-zero@2.0.2~postinstall: is-negative-zero@2.0.2
+npm info lifecycle is-number@7.0.0~postinstall: is-number@7.0.0
+npm info lifecycle is-number-object@1.0.7~postinstall: is-number-object@1.0.7
+npm info lifecycle is-regex@1.1.4~postinstall: is-regex@1.1.4
+npm info lifecycle is-shared-array-buffer@1.0.2~postinstall: is-shared-array-buffer@1.0.2
+npm info lifecycle is-stream@1.1.0~postinstall: is-stream@1.1.0
+npm info lifecycle is-string@1.0.7~postinstall: is-string@1.0.7
+npm info lifecycle is-symbol@1.0.4~postinstall: is-symbol@1.0.4
+npm info lifecycle es-to-primitive@1.2.1~postinstall: es-to-primitive@1.2.1
+npm info lifecycle is-weakref@1.0.2~postinstall: is-weakref@1.0.2
+npm info lifecycle isarray@1.0.0~postinstall: isarray@1.0.0
+npm info lifecycle js-string-escape@1.0.1~postinstall: js-string-escape@1.0.1
+npm info lifecycle js-tokens@4.0.0~postinstall: js-tokens@4.0.0
+npm info lifecycle jsesc@2.5.2~postinstall: jsesc@2.5.2
+npm info lifecycle json-parse-better-errors@1.0.2~postinstall: json-parse-better-errors@1.0.2
+npm info lifecycle json5@2.2.1~postinstall: json5@2.2.1
+npm info lifecycle jsonify@0.0.0~postinstall: jsonify@0.0.0
+npm info lifecycle json-stable-stringify@0.0.1~postinstall: json-stable-stringify@0.0.1
+npm info lifecycle jsonparse@1.3.1~postinstall: jsonparse@1.3.1
+npm info lifecycle lodash@4.17.21~postinstall: lodash@4.17.21
+npm info lifecycle lodash.clonedeep@4.5.0~postinstall: lodash.clonedeep@4.5.0
+npm info lifecycle lodash.debounce@4.0.8~postinstall: lodash.debounce@4.0.8
+npm info lifecycle lodash.memoize@3.0.4~postinstall: lodash.memoize@3.0.4
+npm info lifecycle loupe@2.3.4~postinstall: loupe@2.3.4
+npm info lifecycle lower-case@1.1.4~postinstall: lower-case@1.1.4
+npm info lifecycle bn.js@4.12.0~postinstall: bn.js@4.12.0
+npm info lifecycle miller-rabin@4.0.1~postinstall: miller-rabin@4.0.1
+npm info lifecycle minimalistic-assert@1.0.1~postinstall: minimalistic-assert@1.0.1
+npm info lifecycle des.js@1.0.1~postinstall: des.js@1.0.1
+npm info lifecycle hash.js@1.1.7~postinstall: hash.js@1.1.7
+npm info lifecycle minimalistic-crypto-utils@1.0.1~postinstall: minimalistic-crypto-utils@1.0.1
+npm info lifecycle hmac-drbg@1.0.1~postinstall: hmac-drbg@1.0.1
+npm info lifecycle elliptic@6.5.4~postinstall: elliptic@6.5.4
+npm info lifecycle create-ecdh@4.0.4~postinstall: create-ecdh@4.0.4
+npm info lifecycle minimatch@3.1.2~postinstall: minimatch@3.1.2
+npm info lifecycle minimist@1.2.6~postinstall: minimist@1.2.6
+npm info lifecycle mkdirp-classic@0.5.3~postinstall: mkdirp-classic@0.5.3
+npm info lifecycle ms@2.1.2~postinstall: ms@2.1.2
+npm info lifecycle debug@4.3.4~postinstall: debug@4.3.4
+npm info lifecycle debug@4.3.4~postinstall: debug@4.3.4
+npm info lifecycle debug@4.3.4~postinstall: debug@4.3.4
+npm info lifecycle debug@4.3.4~postinstall: debug@4.3.4
+npm info lifecycle debug@3.2.7~postinstall: debug@3.2.7
+npm info lifecycle next-tick@1.1.0~postinstall: next-tick@1.1.0
+npm info lifecycle no-case@2.3.2~postinstall: no-case@2.3.2
+npm info lifecycle node-releases@2.0.5~postinstall: node-releases@2.0.5
+npm info lifecycle normalize-path@3.0.0~postinstall: normalize-path@3.0.0
+npm info lifecycle object-assign@4.1.1~postinstall: object-assign@4.1.1
+npm info lifecycle assert@1.5.0~postinstall: assert@1.5.0
+npm info lifecycle object-inspect@1.12.2~postinstall: object-inspect@1.12.2
+npm info lifecycle object-keys@1.1.1~postinstall: object-keys@1.1.1
+npm info lifecycle define-properties@1.1.4~postinstall: define-properties@1.1.4
+npm info lifecycle object.assign@4.1.2~postinstall: object.assign@4.1.2
+npm info lifecycle babel-plugin-dynamic-import-node@2.3.3~postinstall: babel-plugin-dynamic-import-node@2.3.3
+npm info lifecycle os-browserify@0.3.0~postinstall: os-browserify@0.3.0
+npm info lifecycle pako@1.0.11~postinstall: pako@1.0.11
+npm info lifecycle browserify-zlib@0.2.0~postinstall: browserify-zlib@0.2.0
+npm info lifecycle parse-json@4.0.0~postinstall: parse-json@4.0.0
+npm info lifecycle path-browserify@0.0.1~postinstall: path-browserify@0.0.1
+npm info lifecycle path-is-absolute@1.0.1~postinstall: path-is-absolute@1.0.1
+npm info lifecycle path-parse@1.0.7~postinstall: path-parse@1.0.7
+npm info lifecycle path-platform@0.11.15~postinstall: path-platform@0.11.15
+npm info lifecycle parents@1.0.1~postinstall: parents@1.0.1
+npm info lifecycle pathval@1.1.1~postinstall: pathval@1.1.1
+npm info lifecycle picocolors@1.0.0~postinstall: picocolors@1.0.0
+npm info lifecycle browserslist@4.20.3~postinstall: browserslist@4.20.3
+npm info lifecycle core-js-compat@3.22.8~postinstall: core-js-compat@3.22.8
+npm info lifecycle picomatch@2.3.1~postinstall: picomatch@2.3.1
+npm info lifecycle anymatch@3.1.2~postinstall: anymatch@3.1.2
+npm info lifecycle process@0.11.10~postinstall: process@0.11.10
+npm info lifecycle process-nextick-args@2.0.1~postinstall: process-nextick-args@2.0.1
+npm info lifecycle progress@2.0.3~postinstall: progress@2.0.3
+npm info lifecycle bn.js@4.12.0~postinstall: bn.js@4.12.0
+npm info lifecycle punycode@1.4.1~postinstall: punycode@1.4.1
+npm info lifecycle querystring@0.2.0~postinstall: querystring@0.2.0
+npm info lifecycle querystring-es3@0.2.1~postinstall: querystring-es3@0.2.1
+npm info lifecycle readdirp@3.6.0~postinstall: readdirp@3.6.0
+npm info lifecycle regenerate@1.4.2~postinstall: regenerate@1.4.2
+npm info lifecycle regenerate-unicode-properties@10.0.1~postinstall: regenerate-unicode-properties@10.0.1
+npm info lifecycle regenerator-runtime@0.13.9~postinstall: regenerator-runtime@0.13.9
+npm info lifecycle @babel/runtime@7.18.3~postinstall: @babel/runtime@7.18.3
+npm info lifecycle regenerator-transform@0.15.0~postinstall: regenerator-transform@0.15.0
+npm info lifecycle @babel/plugin-transform-regenerator@7.18.0~postinstall: @babel/plugin-transform-regenerator@7.18.0
+npm info lifecycle regexp.prototype.flags@1.4.3~postinstall: regexp.prototype.flags@1.4.3
+npm info lifecycle regjsgen@0.6.0~postinstall: regjsgen@0.6.0
+npm info lifecycle jsesc@0.5.0~postinstall: jsesc@0.5.0
+npm info lifecycle regjsparser@0.8.4~postinstall: regjsparser@0.8.4
+npm info lifecycle repeat-string@1.6.1~postinstall: repeat-string@1.6.1
+npm info lifecycle pad-right@0.2.2~postinstall: pad-right@0.2.2
+npm info lifecycle assertion-error-formatter@2.0.1~postinstall: assertion-error-formatter@2.0.1
+npm info lifecycle require-from-string@2.0.2~postinstall: require-from-string@2.0.2
+npm info lifecycle safe-buffer@5.1.2~postinstall: safe-buffer@5.1.2
+npm info lifecycle cipher-base@1.0.4~postinstall: cipher-base@1.0.4
+npm info lifecycle browserify-des@1.0.2~postinstall: browserify-des@1.0.2
+npm info lifecycle convert-source-map@1.8.0~postinstall: convert-source-map@1.8.0
+npm info lifecycle randombytes@2.1.0~postinstall: randombytes@2.1.0
+npm info lifecycle browserify-rsa@4.1.0~postinstall: browserify-rsa@4.1.0
+npm info lifecycle diffie-hellman@5.0.3~postinstall: diffie-hellman@5.0.3
+npm info lifecycle randomfill@1.0.4~postinstall: randomfill@1.0.4
+npm info lifecycle string_decoder@1.1.1~postinstall: string_decoder@1.1.1
+npm info lifecycle safer-buffer@2.1.2~postinstall: safer-buffer@2.1.2
+npm info lifecycle asn1.js@5.4.1~postinstall: asn1.js@5.4.1
+npm info lifecycle seed-random@2.2.0~postinstall: seed-random@2.2.0
+npm info lifecycle knuth-shuffle-seeded@1.0.6~postinstall: knuth-shuffle-seeded@1.0.6
+npm info lifecycle semver@6.3.0~postinstall: semver@6.3.0
+npm info lifecycle @babel/helper-compilation-targets@7.18.2~postinstall: @babel/helper-compilation-targets@7.18.2
+npm info lifecycle @babel/plugin-proposal-object-rest-spread@7.18.0~postinstall: @babel/plugin-proposal-object-rest-spread@7.18.0
+npm info lifecycle serialize-error@2.1.0~postinstall: serialize-error@2.1.0
+npm info lifecycle sha.js@2.4.11~postinstall: sha.js@2.4.11
+npm info lifecycle shasum@1.0.2~postinstall: shasum@1.0.2
+npm info lifecycle shasum-object@1.0.0~postinstall: shasum-object@1.0.0
+npm info lifecycle shell-quote@1.7.3~postinstall: shell-quote@1.7.3
+npm info lifecycle outpipe@1.1.1~postinstall: outpipe@1.1.1
+npm info lifecycle side-channel@1.0.4~postinstall: side-channel@1.0.4
+npm info lifecycle internal-slot@1.0.3~postinstall: internal-slot@1.0.3
+npm info lifecycle simple-concat@1.0.1~postinstall: simple-concat@1.0.1
+npm info lifecycle source-map@0.5.7~postinstall: source-map@0.5.7
+npm info lifecycle inline-source-map@0.6.2~postinstall: inline-source-map@0.6.2
+npm info lifecycle combine-source-map@0.8.0~postinstall: combine-source-map@0.8.0
+npm info lifecycle sprintf-js@1.0.3~postinstall: sprintf-js@1.0.3
+npm info lifecycle argparse@1.0.10~postinstall: argparse@1.0.10
+npm info lifecycle js-yaml@3.14.1~postinstall: js-yaml@3.14.1
+npm info lifecycle cosmiconfig@4.0.0~postinstall: cosmiconfig@4.0.0
+npm info lifecycle stack-chain@2.0.0~postinstall: stack-chain@2.0.0
+npm info lifecycle stackframe@1.2.1~postinstall: stackframe@1.2.1
+npm info lifecycle error-stack-parser@2.0.7~postinstall: error-stack-parser@2.0.7
+npm info lifecycle stack-generator@2.0.5~postinstall: stack-generator@2.0.5
+npm info lifecycle source-map@0.5.6~postinstall: source-map@0.5.6
+npm info lifecycle stacktrace-gps@3.0.4~postinstall: stacktrace-gps@3.0.4
+npm info lifecycle stacktrace-js@2.0.2~postinstall: stacktrace-js@2.0.2
+npm info lifecycle safe-buffer@5.2.1~postinstall: safe-buffer@5.2.1
+npm info lifecycle string_decoder@1.3.0~postinstall: string_decoder@1.3.0
+npm info lifecycle string-argv@0.0.2~postinstall: string-argv@0.0.2
+npm info lifecycle subarg@1.0.0~postinstall: subarg@1.0.0
+npm info lifecycle supports-color@5.5.0~postinstall: supports-color@5.5.0
+npm info lifecycle chalk@2.4.2~postinstall: chalk@2.4.2
+npm info lifecycle @babel/highlight@7.17.12~postinstall: @babel/highlight@7.17.12
+npm info lifecycle @babel/code-frame@7.16.7~postinstall: @babel/code-frame@7.16.7
+npm info lifecycle supports-preserve-symlinks-flag@1.0.0~postinstall: supports-preserve-symlinks-flag@1.0.0
+npm info lifecycle resolve@1.22.0~postinstall: resolve@1.22.0
+npm info lifecycle browser-resolve@2.0.0~postinstall: browser-resolve@2.0.0
+npm info lifecycle thenify@3.3.1~postinstall: thenify@3.3.1
+npm info lifecycle thenify-all@1.6.0~postinstall: thenify-all@1.6.0
+npm info lifecycle mz@2.7.0~postinstall: mz@2.7.0
+npm info lifecycle through@2.3.8~postinstall: through@2.3.8
+npm info lifecycle JSONStream@1.3.5~postinstall: JSONStream@1.3.5
+npm info lifecycle timers-browserify@1.4.2~postinstall: timers-browserify@1.4.2
+npm info lifecycle to-fast-properties@2.0.0~postinstall: to-fast-properties@2.0.0
+npm info lifecycle @babel/types@7.18.4~postinstall: @babel/types@7.18.4
+npm info lifecycle @babel/generator@7.18.2~postinstall: @babel/generator@7.18.2
+npm info lifecycle @babel/helper-annotate-as-pure@7.16.7~postinstall: @babel/helper-annotate-as-pure@7.16.7
+npm info lifecycle @babel/plugin-transform-react-pure-annotations@7.18.0~postinstall: @babel/plugin-transform-react-pure-annotations@7.18.0
+npm info lifecycle @babel/helper-explode-assignable-expression@7.16.7~postinstall: @babel/helper-explode-assignable-expression@7.16.7
+npm info lifecycle @babel/helper-builder-binary-assignment-operator-visitor@7.16.7~postinstall: @babel/helper-builder-binary-assignment-operator-visitor@7.16.7
+npm info lifecycle @babel/plugin-transform-exponentiation-operator@7.16.7~postinstall: @babel/plugin-transform-exponentiation-operator@7.16.7
+npm info lifecycle @babel/helper-hoist-variables@7.16.7~postinstall: @babel/helper-hoist-variables@7.16.7
+npm info lifecycle @babel/helper-member-expression-to-functions@7.17.7~postinstall: @babel/helper-member-expression-to-functions@7.17.7
+npm info lifecycle @babel/helper-module-imports@7.16.7~postinstall: @babel/helper-module-imports@7.16.7
+npm info lifecycle @babel/helper-optimise-call-expression@7.16.7~postinstall: @babel/helper-optimise-call-expression@7.16.7
+npm info lifecycle @babel/helper-simple-access@7.18.2~postinstall: @babel/helper-simple-access@7.18.2
+npm info lifecycle @babel/helper-skip-transparent-expression-wrappers@7.16.0~postinstall: @babel/helper-skip-transparent-expression-wrappers@7.16.0
+npm info lifecycle @babel/plugin-proposal-optional-chaining@7.17.12~postinstall: @babel/plugin-proposal-optional-chaining@7.17.12
+npm info lifecycle @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.17.12~postinstall: @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.17.12
+npm info lifecycle @babel/plugin-transform-spread@7.17.12~postinstall: @babel/plugin-transform-spread@7.17.12
+npm info lifecycle @babel/helper-split-export-declaration@7.16.7~postinstall: @babel/helper-split-export-declaration@7.16.7
+npm info lifecycle @babel/plugin-transform-react-jsx@7.17.12~postinstall: @babel/plugin-transform-react-jsx@7.17.12
+npm info lifecycle @babel/plugin-transform-react-jsx-development@7.16.7~postinstall: @babel/plugin-transform-react-jsx-development@7.16.7
+npm info lifecycle @babel/preset-react@7.17.12~postinstall: @babel/preset-react@7.17.12
+npm info lifecycle @babel/template@7.16.7~postinstall: @babel/template@7.16.7
+npm info lifecycle @babel/helper-function-name@7.17.9~postinstall: @babel/helper-function-name@7.17.9
+npm info lifecycle @babel/plugin-transform-function-name@7.16.7~postinstall: @babel/plugin-transform-function-name@7.16.7
+npm info lifecycle @babel/traverse@7.18.2~postinstall: @babel/traverse@7.18.2
+npm info lifecycle @babel/helper-define-polyfill-provider@0.3.1~postinstall: @babel/helper-define-polyfill-provider@0.3.1
+npm info lifecycle babel-plugin-polyfill-corejs2@0.3.1~postinstall: babel-plugin-polyfill-corejs2@0.3.1
+npm info lifecycle babel-plugin-polyfill-corejs3@0.5.2~postinstall: babel-plugin-polyfill-corejs3@0.5.2
+npm info lifecycle babel-plugin-polyfill-regenerator@0.3.1~postinstall: babel-plugin-polyfill-regenerator@0.3.1
+npm info lifecycle @babel/plugin-transform-runtime@7.18.2~postinstall: @babel/plugin-transform-runtime@7.18.2
+npm info lifecycle @babel/helper-module-transforms@7.18.0~postinstall: @babel/helper-module-transforms@7.18.0
+npm info lifecycle @babel/plugin-transform-modules-amd@7.18.0~postinstall: @babel/plugin-transform-modules-amd@7.18.0
+npm info lifecycle @babel/plugin-transform-modules-commonjs@7.18.2~postinstall: @babel/plugin-transform-modules-commonjs@7.18.2
+npm info lifecycle @babel/plugin-transform-modules-systemjs@7.18.4~postinstall: @babel/plugin-transform-modules-systemjs@7.18.4
+npm info lifecycle @babel/plugin-transform-modules-umd@7.18.0~postinstall: @babel/plugin-transform-modules-umd@7.18.0
+npm info lifecycle @babel/helper-replace-supers@7.18.2~postinstall: @babel/helper-replace-supers@7.18.2
+npm info lifecycle @babel/helper-create-class-features-plugin@7.18.0~postinstall: @babel/helper-create-class-features-plugin@7.18.0
+npm info lifecycle @babel/plugin-proposal-class-properties@7.17.12~postinstall: @babel/plugin-proposal-class-properties@7.17.12
+npm info lifecycle @babel/plugin-proposal-class-static-block@7.18.0~postinstall: @babel/plugin-proposal-class-static-block@7.18.0
+npm info lifecycle @babel/plugin-proposal-private-methods@7.17.12~postinstall: @babel/plugin-proposal-private-methods@7.17.12
+npm info lifecycle @babel/plugin-proposal-private-property-in-object@7.17.12~postinstall: @babel/plugin-proposal-private-property-in-object@7.17.12
+npm info lifecycle @babel/plugin-transform-classes@7.18.4~postinstall: @babel/plugin-transform-classes@7.18.4
+npm info lifecycle @babel/plugin-transform-object-super@7.16.7~postinstall: @babel/plugin-transform-object-super@7.16.7
+npm info lifecycle @babel/helper-wrap-function@7.16.8~postinstall: @babel/helper-wrap-function@7.16.8
+npm info lifecycle @babel/helper-remap-async-to-generator@7.16.8~postinstall: @babel/helper-remap-async-to-generator@7.16.8
+npm info lifecycle @babel/plugin-proposal-async-generator-functions@7.17.12~postinstall: @babel/plugin-proposal-async-generator-functions@7.17.12
+npm info lifecycle @babel/plugin-transform-async-to-generator@7.17.12~postinstall: @babel/plugin-transform-async-to-generator@7.17.12
+npm info lifecycle @babel/helpers@7.18.2~postinstall: @babel/helpers@7.18.2
+npm info lifecycle @babel/core@7.18.2~postinstall: @babel/core@7.18.2
+npm info lifecycle to-regex-range@5.0.1~postinstall: to-regex-range@5.0.1
+npm info lifecycle fill-range@7.0.1~postinstall: fill-range@7.0.1
+npm info lifecycle braces@3.0.2~postinstall: braces@3.0.2
+npm info lifecycle chokidar@3.5.2~postinstall: chokidar@3.5.2
+npm info lifecycle tty-browserify@0.0.1~postinstall: tty-browserify@0.0.1
+npm info lifecycle type@1.2.0~postinstall: type@1.2.0
+npm info lifecycle d@1.0.1~postinstall: d@1.0.1
+npm info lifecycle es6-symbol@3.1.3~postinstall: es6-symbol@3.1.3
+npm info lifecycle es6-iterator@2.0.3~postinstall: es6-iterator@2.0.3
+npm info lifecycle es5-ext@0.10.61~postinstall: es5-ext@0.10.61
+
+> es5-ext@0.10.61 postinstall /Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/es5-ext
+>  node -e "try{require('./_postinstall')}catch(e){}" || exit 0
+
+npm verb lifecycle es5-ext@0.10.61~postinstall: unsafe-perm in lifecycle true
+npm verb lifecycle es5-ext@0.10.61~postinstall: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/es5-ext/node_modules/.bin:/Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/kailashpathak/Documents/cypress_with_cucumber/node_modules/.bin:/usr/local/opt/node@10/bin:/usr/local/opt/node@10/bin:/usr/local/opt/node@10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/node@10/bin
+npm verb lifecycle es5-ext@0.10.61~postinstall: CWD: /Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/es5-ext
+npm info lifecycle duration@0.2.2~postinstall: duration@0.2.2
+npm info lifecycle type-detect@4.0.8~postinstall: type-detect@4.0.8
+npm info lifecycle deep-eql@3.0.1~postinstall: deep-eql@3.0.1
+npm info lifecycle chai@4.3.6~postinstall: chai@4.3.6
+npm info lifecycle typedarray@0.0.6~postinstall: typedarray@0.0.6
+npm info lifecycle umd@3.0.3~postinstall: umd@3.0.3
+npm info lifecycle unicode-canonical-property-names-ecmascript@2.0.0~postinstall: unicode-canonical-property-names-ecmascript@2.0.0
+npm info lifecycle unicode-match-property-value-ecmascript@2.0.0~postinstall: unicode-match-property-value-ecmascript@2.0.0
+npm info lifecycle unicode-property-aliases-ecmascript@2.0.0~postinstall: unicode-property-aliases-ecmascript@2.0.0
+npm info lifecycle unicode-match-property-ecmascript@2.0.0~postinstall: unicode-match-property-ecmascript@2.0.0
+npm info lifecycle regexpu-core@5.0.1~postinstall: regexpu-core@5.0.1
+npm info lifecycle @babel/helper-create-regexp-features-plugin@7.17.12~postinstall: @babel/helper-create-regexp-features-plugin@7.17.12
+npm info lifecycle @babel/plugin-proposal-unicode-property-regex@7.17.12~postinstall: @babel/plugin-proposal-unicode-property-regex@7.17.12
+npm info lifecycle @babel/plugin-transform-dotall-regex@7.16.7~postinstall: @babel/plugin-transform-dotall-regex@7.16.7
+npm info lifecycle @babel/preset-modules@0.1.5~postinstall: @babel/preset-modules@0.1.5
+npm info lifecycle @babel/plugin-transform-named-capturing-groups-regex@7.17.12~postinstall: @babel/plugin-transform-named-capturing-groups-regex@7.17.12
+npm info lifecycle @babel/plugin-transform-unicode-regex@7.16.7~postinstall: @babel/plugin-transform-unicode-regex@7.16.7
+npm info lifecycle @babel/preset-env@7.18.2~postinstall: @babel/preset-env@7.18.2
+npm info lifecycle universalify@2.0.0~postinstall: universalify@2.0.0
+npm info lifecycle jsonfile@6.1.0~postinstall: jsonfile@6.1.0
+npm info lifecycle fs-extra@9.1.0~postinstall: fs-extra@9.1.0
+npm info lifecycle upper-case@1.1.3~postinstall: upper-case@1.1.3
+npm info lifecycle title-case@2.1.1~postinstall: title-case@2.1.1
+npm info lifecycle punycode@1.3.2~postinstall: punycode@1.3.2
+npm info lifecycle url@0.11.0~postinstall: url@0.11.0
+npm info lifecycle util-arity@1.1.0~postinstall: util-arity@1.1.0
+npm info lifecycle util-deprecate@1.0.2~postinstall: util-deprecate@1.0.2
+npm info lifecycle readable-stream@3.6.0~postinstall: readable-stream@3.6.0
+npm info lifecycle readable-stream@3.6.0~postinstall: readable-stream@3.6.0
+npm info lifecycle hash-base@3.1.0~postinstall: hash-base@3.1.0
+npm info lifecycle md5.js@1.3.5~postinstall: md5.js@1.3.5
+npm info lifecycle evp_bytestokey@1.0.3~postinstall: evp_bytestokey@1.0.3
+npm info lifecycle ripemd160@2.0.2~postinstall: ripemd160@2.0.2
+npm info lifecycle create-hash@1.2.0~postinstall: create-hash@1.2.0
+npm info lifecycle browserify-aes@1.2.0~postinstall: browserify-aes@1.2.0
+npm info lifecycle browserify-cipher@1.0.1~postinstall: browserify-cipher@1.0.1
+npm info lifecycle create-hmac@1.1.7~postinstall: create-hmac@1.1.7
+npm info lifecycle pbkdf2@3.1.2~postinstall: pbkdf2@3.1.2
+npm info lifecycle parse-asn1@5.1.6~postinstall: parse-asn1@5.1.6
+npm info lifecycle browserify-sign@4.2.1~postinstall: browserify-sign@4.2.1
+npm info lifecycle public-encrypt@4.0.3~postinstall: public-encrypt@4.0.3
+npm info lifecycle crypto-browserify@3.12.0~postinstall: crypto-browserify@3.12.0
+npm info lifecycle readable-stream@2.3.7~postinstall: readable-stream@2.3.7
+npm info lifecycle concat-stream@1.6.2~postinstall: concat-stream@1.6.2
+npm info lifecycle duplexer2@0.1.4~postinstall: duplexer2@0.1.4
+npm info lifecycle read-only-stream@2.0.0~postinstall: read-only-stream@2.0.0
+npm info lifecycle stream-browserify@2.0.2~postinstall: stream-browserify@2.0.2
+npm info lifecycle stream-combiner2@1.1.1~postinstall: stream-combiner2@1.1.1
+npm info lifecycle stream-splicer@2.0.1~postinstall: stream-splicer@2.0.1
+npm info lifecycle labeled-stream-splicer@2.0.2~postinstall: labeled-stream-splicer@2.0.2
+npm info lifecycle readable-stream@3.6.0~postinstall: readable-stream@3.6.0
+npm info lifecycle inherits@2.0.3~postinstall: inherits@2.0.3
+npm info lifecycle util@0.10.4~postinstall: util@0.10.4
+npm info lifecycle core-util-is@1.0.2~postinstall: core-util-is@1.0.2
+npm info lifecycle verror@1.10.1~postinstall: verror@1.10.1
+npm info lifecycle vm-browserify@1.1.2~postinstall: vm-browserify@1.1.2
+npm info lifecycle events@3.3.0~postinstall: events@3.3.0
+npm info lifecycle path-browserify@1.0.1~postinstall: path-browserify@1.0.1
+npm info lifecycle readable-stream@3.6.0~postinstall: readable-stream@3.6.0
+npm info lifecycle stream-browserify@3.0.0~postinstall: stream-browserify@3.0.0
+npm info lifecycle readable-stream@3.6.0~postinstall: readable-stream@3.6.0
+npm info lifecycle through2@4.0.2~postinstall: through2@4.0.2
+npm info lifecycle which-boxed-primitive@1.0.2~postinstall: which-boxed-primitive@1.0.2
+npm info lifecycle unbox-primitive@1.0.2~postinstall: unbox-primitive@1.0.2
+npm info lifecycle es-abstract@1.20.1~postinstall: es-abstract@1.20.1
+npm info lifecycle function.prototype.name@1.1.5~postinstall: function.prototype.name@1.1.5
+npm info lifecycle is-typed-array@1.1.9~postinstall: is-typed-array@1.1.9
+npm info lifecycle string.prototype.trimend@1.0.5~postinstall: string.prototype.trimend@1.0.5
+npm info lifecycle string.prototype.trimstart@1.0.5~postinstall: string.prototype.trimstart@1.0.5
+npm info lifecycle which-typed-array@1.1.8~postinstall: which-typed-array@1.1.8
+npm info lifecycle util@0.12.4~postinstall: util@0.12.4
+npm info lifecycle wrappy@1.0.2~postinstall: wrappy@1.0.2
+npm info lifecycle once@1.4.0~postinstall: once@1.4.0
+npm info lifecycle inflight@1.0.6~postinstall: inflight@1.0.6
+npm info lifecycle glob@7.2.3~postinstall: glob@7.2.3
+npm info lifecycle cucumber@4.2.1~postinstall: cucumber@4.2.1
+npm info lifecycle xtend@4.0.2~postinstall: xtend@4.0.2
+npm info lifecycle acorn-node@1.8.2~postinstall: acorn-node@1.8.2
+npm info lifecycle detective@5.2.1~postinstall: detective@5.2.1
+npm info lifecycle syntax-error@1.4.0~postinstall: syntax-error@1.4.0
+npm info lifecycle stream-http@3.2.0~postinstall: stream-http@3.2.0
+npm info lifecycle through2@2.0.5~postinstall: through2@2.0.5
+npm info lifecycle browser-pack@6.1.0~postinstall: browser-pack@6.1.0
+npm info lifecycle coffeeify@3.0.1~postinstall: coffeeify@3.0.1
+npm info lifecycle deps-sort@2.0.1~postinstall: deps-sort@2.0.1
+npm info lifecycle module-deps@6.2.3~postinstall: module-deps@6.2.3
+npm info lifecycle undeclared-identifiers@1.1.3~postinstall: undeclared-identifiers@1.1.3
+npm info lifecycle insert-module-globals@7.2.1~postinstall: insert-module-globals@7.2.1
+npm info lifecycle browserify@16.5.2~postinstall: browserify@16.5.2
+npm info lifecycle through2@2.0.5~postinstall: through2@2.0.5
+npm info lifecycle browserify@17.0.0~postinstall: browserify@17.0.0
+npm info lifecycle watchify@4.0.0~postinstall: watchify@4.0.0
+npm info lifecycle @cypress/browserify-preprocessor@3.0.2~postinstall: @cypress/browserify-preprocessor@3.0.2
+npm info lifecycle cypress-cucumber-preprocessor@4.3.1~postinstall: cypress-cucumber-preprocessor@4.3.1
+npm timing action:postinstall Completed in 360ms
+npm verb unlock done using /Users/kailashpathak/.npm/_locks/staging-c5f9d255dfed3556.lock for /Users/kailashpathak/Documents/cypress_with_cucumber/tmpBstackPackages/node_modules/.staging
+npm timing stage:executeActions Completed in 5995ms
+npm timing stage:rollbackFailedOptional Completed in 0ms
+npm info linkStuff !invalid#1
+npm info lifecycle undefined~install: undefined
+npm info lifecycle undefined~postinstall: undefined
+npm info lifecycle undefined~prepublish: undefined
+npm info lifecycle undefined~prepare: undefined
+npm timing stage:runTopLevelLifecycles Completed in 12536ms
+npm verb saving []
+npm info lifecycle !invalid#2~preshrinkwrap: !invalid#2
+npm info lifecycle !invalid#2~shrinkwrap: !invalid#2
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm info lifecycle !invalid#2~postshrinkwrap: !invalid#2
+npm WARN tmpBstackPackages No description
+npm WARN tmpBstackPackages No repository field.
+npm WARN tmpBstackPackages No license field.
+
+added 465 packages from 355 contributors and audited 465 packages in 12.837s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+npm verb exit [ 0, true ]
+npm timing npm Completed in 13474ms
+npm info ok 
