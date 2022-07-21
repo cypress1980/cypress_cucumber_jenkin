@@ -1,21 +1,21 @@
 [
   {
     "keyword": "Feature",
-    "name": "I want to login into the site with valid and invalid data and search T-shirt",
+    "name": "I want to login into the site with valid and invalid data",
     "line": 1,
-    "id": "i-want-to-login-into-the-site-with-valid-and-invalid-data-and-search-t-shirt",
+    "id": "i-want-to-login-into-the-site-with-valid-and-invalid-data",
     "tags": [],
     "uri": "LoginTest.feature",
     "elements": [
       {
-        "id": "i-want-to-login-into-the-site-with-valid-and-invalid-data-and-search-t-shirt;login-as-new-sign-up-user-with-valid-data",
+        "id": "i-want-to-login-into-the-site-with-valid-and-invalid-data;login-as-new-sign-up-user-with-valid-data-:-qa-135,qa-156",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "Login as new sign up user with valid data",
+        "line": 6,
+        "name": "Login as new sign up user with valid data : QA-135,QA-156",
         "tags": [
           {
-            "name": "@regression",
-            "line": 6
+            "name": "@SmokeTest",
+            "line": 5
           }
         ],
         "type": "scenario",
@@ -27,7 +27,7 @@
             "name": "I navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 6321000000
+              "duration": 7270000000
             }
           },
           {
@@ -50,27 +50,27 @@
               }
             ],
             "keyword": "When ",
-            "line": 8,
-            "name": "I entered valid crediential",
+            "line": 7,
+            "name": "I entered valid credential",
             "result": {
               "status": "passed",
-              "duration": 9559000000
+              "duration": 7169000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 11,
+            "line": 10,
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 3386000000
+              "duration": 5709000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 12,
+            "line": 11,
             "name": "Validate the title after login",
             "result": {
               "status": "passed",
@@ -80,11 +80,16 @@
         ]
       },
       {
-        "id": "i-want-to-login-into-the-site-with-valid-and-invalid-data-and-search-t-shirt;login-with-invalid-data-by-entering-invalid-password",
+        "id": "i-want-to-login-into-the-site-with-valid-and-invalid-data;login-with-invalid-data-by-entering-invalid-password-:-qa-56,qa-156",
         "keyword": "Scenario",
-        "line": 13,
-        "name": "Login with invalid data by entering invalid password",
-        "tags": [],
+        "line": 14,
+        "name": "Login with invalid data by entering invalid password : QA-56,QA-156",
+        "tags": [
+          {
+            "name": "@SanityTest",
+            "line": 13
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -94,7 +99,7 @@
             "name": "I navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 3600000000
+              "duration": 7634000000
             }
           },
           {
@@ -117,21 +122,21 @@
               }
             ],
             "keyword": "When ",
-            "line": 14,
-            "name": "I entered invalid crediential",
+            "line": 15,
+            "name": "I entered invalid credential",
             "result": {
               "status": "passed",
-              "duration": 2690000000
+              "duration": 5522000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 17,
+            "line": 18,
             "name": "User click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 3088000000
+              "duration": 1965000000
             }
           },
           {
@@ -152,96 +157,11 @@
               }
             ],
             "keyword": "Then ",
-            "line": 18,
+            "line": 19,
             "name": "Error message should display",
             "result": {
               "status": "passed",
-              "duration": 16000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "i-want-to-login-into-the-site-with-valid-and-invalid-data-and-search-t-shirt;search-t-shirts-from-the-site",
-        "keyword": "Scenario",
-        "line": 23,
-        "name": "Search T-shirts from the site",
-        "tags": [
-          {
-            "name": "@smoke",
-            "line": 22
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "I navigate to the Website",
-            "result": {
-              "status": "passed",
-              "duration": 3293000000
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "serachtext"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "T-shirts"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "When ",
-            "line": 24,
-            "name": "I entered the search criteria",
-            "result": {
-              "status": "passed",
-              "duration": 270000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 27,
-            "name": "Click on serach button",
-            "result": {
-              "status": "passed",
-              "duration": 2784000000
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "tshirtName"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Faded Short Sleeve T-shirts"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "Then ",
-            "line": 28,
-            "name": "Validate the T-shirt name",
-            "result": {
-              "status": "passed",
-              "duration": 24000000
+              "duration": 17000000
             }
           }
         ]
